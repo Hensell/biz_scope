@@ -1,0 +1,17 @@
+[
+  { "label": "placements", "icon": "show_chart", "route": "/colocaciones" },
+  { "label": "delinquency", "icon": "trending_down", "route": "/mora" },
+  { "label": "atRiskPortfolio", "icon": "warning", "route": "/cartera-riesgo" },
+  { "label": "inactiveClients", "icon": "person_off", "route": "/clientes-inactivos" },
+  { "label": "portfolioTurnover", "icon": "sync", "route": "/rotacion-cartera" },
+  { "label": "goalAchievement", "icon": "verified", "route": "/cumplimiento-metas" },
+  { "label": "clientGrowth", "icon": "person_add", "route": "/crecimiento-clientes" },
+  { "label": "averagePlacementPerOfficer", "icon": "bar_chart", "route": "/colocacion-promedio" },
+  { "label": "workPlan", "icon": "assignment_turned_in", "route": "/plan-trabajo" },
+  { "label": "cashTransactions", "icon": "attach_money", "route": "/transacciones-caja" },
+  { "label": "auditResults", "icon": "checklist", "route": "/resultados-arqueos" },
+  { "label": "portfolioBalancing", "icon": "account_balance_wallet", "route": "/cuadre-cartera" },
+  { "label": "workplaceClimate", "icon": "wb_sunny", "route": "/clima-laboral" },
+  { "label": "disbursements", "icon": "monetization_on", "route": "/desembolsos" },
+  { "label": "promotions", "icon": "campaign", "route": "/promociones" }
+]

@@ -1,0 +1,2130 @@
+[
+  {
+    "officer": "María Pérez",
+    "date": "2024-07-01T00:00:00.000",
+    "amount": 1500.0,
+    "client": "Juan Gutiérrez",
+    "product": "Microcrédito",
+    "branch": "León"
+  },
+  {
+    "officer": "Ana Torres",
+    "date": "2024-07-01T00:00:00.000",
+    "amount": 1449.88,
+    "client": "Cliente 950",
+    "product": "Agropecuario",
+    "branch": "Chinandega"
+  },
+  {
+    "officer": "Luis Méndez",
+    "date": "2024-07-01T00:00:00.000",
+    "amount": 2365.88,
+    "client": "Cliente 736",
+    "product": "Microcrédito",
+    "branch": "Estelí"
+  },
+  {
+    "officer": "José García",
+    "date": "2024-07-01T00:00:00.000",
+    "amount": 1904.11,
+    "client": "Cliente 601",
+    "product": "Agropecuario",
+    "branch": "Managua"
+  },
+  {
+    "officer": "María Pérez",
+    "date": "2024-07-01T00:00:00.000",
+    "amount": 1481.08,
+    "client": "Cliente 494",
+    "product": "Agropecuario",
+    "branch": "León"
+  },
+  {
+    "officer": "José García",
+    "date": "2024-07-01T00:00:00.000",
+    "amount": 1918.37,
+    "client": "Cliente 467",
+    "product": "Consumo",
+    "branch": "Chinandega"
+  },
+  {
+    "officer": "Carlos Silva",
+    "date": "2024-07-01T00:00:00.000",
+    "amount": 1200.0,
+    "client": "Pedro Martínez",
+    "product": "Consumo",
+    "branch": "Managua"
+  },
+  {
+    "officer": "María Pérez",
+    "date": "2024-07-01T00:00:00.000",
+    "amount": 850.0,
+    "client": "Ana López",
+    "product": "Microcrédito",
+    "branch": "León"
+  },
+  {
+    "officer": "Carlos Silva",
+    "date": "2024-07-01T00:00:00.000",
+    "amount": 1903.2,
+    "client": "Cliente 85",
+    "product": "Agropecuario",
+    "branch": "Chinandega"
+  },
+  {
+    "officer": "María Pérez",
+    "date": "2024-07-02T00:00:00.000",
+    "amount": 1700.0,
+    "client": "Rosa Zamora",
+    "product": "Microcrédito",
+    "branch": "León"
+  },
+  {
+    "officer": "Carlos Silva",
+    "date": "2024-07-02T00:00:00.000",
+    "amount": 2065.14,
+    "client": "Cliente 148",
+    "product": "Consumo",
+    "branch": "Granada"
+  },
+  {
+    "officer": "María Pérez",
+    "date": "2024-07-02T00:00:00.000",
+    "amount": 2517.25,
+    "client": "Cliente 722",
+    "product": "Consumo",
+    "branch": "Chinandega"
+  },
+  {
+    "officer": "María Pérez",
+    "date": "2024-07-02T00:00:00.000",
+    "amount": 564.52,
+    "client": "Cliente 355",
+    "product": "Agropecuario",
+    "branch": "Managua"
+  },
+  {
+    "officer": "María Pérez",
+    "date": "2024-07-02T00:00:00.000",
+    "amount": 2766.91,
+    "client": "Cliente 215",
+    "product": "Vivienda",
+    "branch": "Estelí"
+  },
+  {
+    "officer": "Ana Torres",
+    "date": "2024-07-02T00:00:00.000",
+    "amount": 1514.74,
+    "client": "Cliente 435",
+    "product": "Microcrédito",
+    "branch": "Granada"
+  },
+  {
+    "officer": "Luis Méndez",
+    "date": "2024-07-02T00:00:00.000",
+    "amount": 2952.12,
+    "client": "Cliente 880",
+    "product": "Consumo",
+    "branch": "Granada"
+  },
+  {
+    "officer": "Ana Torres",
+    "date": "2024-07-03T00:00:00.000",
+    "amount": 1857.54,
+    "client": "Cliente 579",
+    "product": "Consumo",
+    "branch": "León"
+  },
+  {
+    "officer": "Luis Méndez",
+    "date": "2024-07-03T00:00:00.000",
+    "amount": 1870.75,
+    "client": "Cliente 614",
+    "product": "Vivienda",
+    "branch": "Chinandega"
+  },
+  {
+    "officer": "Carlos Silva",
+    "date": "2024-07-03T00:00:00.000",
+    "amount": 2543.86,
+    "client": "Cliente 847",
+    "product": "Consumo",
+    "branch": "Estelí"
+  },
+  {
+    "officer": "Luis Méndez",
+    "date": "2024-07-04T00:00:00.000",
+    "amount": 579.74,
+    "client": "Cliente 77",
+    "product": "Consumo",
+    "branch": "Managua"
+  },
+  {
+    "officer": "María Pérez",
+    "date": "2024-07-04T00:00:00.000",
+    "amount": 2740.25,
+    "client": "Cliente 413",
+    "product": "Consumo",
+    "branch": "León"
+  },
+  {
+    "officer": "Luis Méndez",
+    "date": "2024-07-04T00:00:00.000",
+    "amount": 1385.32,
+    "client": "Cliente 524",
+    "product": "Vivienda",
+    "branch": "Estelí"
+  },
+  {
+    "officer": "María Pérez",
+    "date": "2024-07-04T00:00:00.000",
+    "amount": 1979.56,
+    "client": "Cliente 333",
+    "product": "Consumo",
+    "branch": "Managua"
+  },
+  {
+    "officer": "María Pérez",
+    "date": "2024-07-04T00:00:00.000",
+    "amount": 2116.68,
+    "client": "Cliente 501",
+    "product": "Microcrédito",
+    "branch": "Estelí"
+  },
+  {
+    "officer": "Luis Méndez",
+    "date": "2024-07-04T00:00:00.000",
+    "amount": 1698.52,
+    "client": "Cliente 286",
+    "product": "Vivienda",
+    "branch": "Managua"
+  },
+  {
+    "officer": "María Pérez",
+    "date": "2024-07-05T00:00:00.000",
+    "amount": 2538.43,
+    "client": "Cliente 230",
+    "product": "Vivienda",
+    "branch": "León"
+  },
+  {
+    "officer": "Ana Torres",
+    "date": "2024-07-05T00:00:00.000",
+    "amount": 2956.0,
+    "client": "Cliente 170",
+    "product": "Agropecuario",
+    "branch": "Managua"
+  },
+  {
+    "officer": "Ana Torres",
+    "date": "2024-07-05T00:00:00.000",
+    "amount": 1676.19,
+    "client": "Cliente 540",
+    "product": "Microcrédito",
+    "branch": "León"
+  },
+  {
+    "officer": "Carlos Silva",
+    "date": "2024-07-05T00:00:00.000",
+    "amount": 2937.32,
+    "client": "Cliente 449",
+    "product": "Vivienda",
+    "branch": "Chinandega"
+  },
+  {
+    "officer": "Carlos Silva",
+    "date": "2024-07-05T00:00:00.000",
+    "amount": 2670.29,
+    "client": "Cliente 497",
+    "product": "Consumo",
+    "branch": "Estelí"
+  },
+  {
+    "officer": "María Pérez",
+    "date": "2024-07-05T00:00:00.000",
+    "amount": 853.65,
+    "client": "Cliente 781",
+    "product": "Consumo",
+    "branch": "Estelí"
+  },
+  {
+    "officer": "José García",
+    "date": "2024-07-06T00:00:00.000",
+    "amount": 547.86,
+    "client": "Cliente 473",
+    "product": "Agropecuario",
+    "branch": "Estelí"
+  },
+  {
+    "officer": "María Pérez",
+    "date": "2024-07-06T00:00:00.000",
+    "amount": 1254.11,
+    "client": "Cliente 319",
+    "product": "Microcrédito",
+    "branch": "Estelí"
+  },
+  {
+    "officer": "María Pérez",
+    "date": "2024-07-06T00:00:00.000",
+    "amount": 2086.07,
+    "client": "Cliente 465",
+    "product": "Microcrédito",
+    "branch": "Managua"
+  },
+  {
+    "officer": "Ana Torres",
+    "date": "2024-07-06T00:00:00.000",
+    "amount": 750.16,
+    "client": "Cliente 590",
+    "product": "Agropecuario",
+    "branch": "Estelí"
+  },
+  {
+    "officer": "Carlos Silva",
+    "date": "2024-07-07T00:00:00.000",
+    "amount": 2592.14,
+    "client": "Cliente 170",
+    "product": "Agropecuario",
+    "branch": "Chinandega"
+  },
+  {
+    "officer": "José García",
+    "date": "2024-07-07T00:00:00.000",
+    "amount": 2208.0,
+    "client": "Cliente 368",
+    "product": "Consumo",
+    "branch": "Granada"
+  },
+  {
+    "officer": "Ana Torres",
+    "date": "2024-07-07T00:00:00.000",
+    "amount": 1018.46,
+    "client": "Cliente 162",
+    "product": "Agropecuario",
+    "branch": "Chinandega"
+  },
+  {
+    "officer": "José García",
+    "date": "2024-07-07T00:00:00.000",
+    "amount": 2523.44,
+    "client": "Cliente 354",
+    "product": "Microcrédito",
+    "branch": "Managua"
+  },
+  {
+    "officer": "María Pérez",
+    "date": "2024-07-07T00:00:00.000",
+    "amount": 959.67,
+    "client": "Cliente 724",
+    "product": "Microcrédito",
+    "branch": "Managua"
+  },
+  {
+    "officer": "Ana Torres",
+    "date": "2024-07-07T00:00:00.000",
+    "amount": 2389.68,
+    "client": "Cliente 648",
+    "product": "Consumo",
+    "branch": "Estelí"
+  },
+  {
+    "officer": "María Pérez",
+    "date": "2024-07-08T00:00:00.000",
+    "amount": 1074.99,
+    "client": "Cliente 620",
+    "product": "Consumo",
+    "branch": "Granada"
+  },
+  {
+    "officer": "María Pérez",
+    "date": "2024-07-08T00:00:00.000",
+    "amount": 977.21,
+    "client": "Cliente 203",
+    "product": "Agropecuario",
+    "branch": "Granada"
+  },
+  {
+    "officer": "Carlos Silva",
+    "date": "2024-07-09T00:00:00.000",
+    "amount": 1469.71,
+    "client": "Cliente 294",
+    "product": "Agropecuario",
+    "branch": "León"
+  },
+  {
+    "officer": "María Pérez",
+    "date": "2024-07-09T00:00:00.000",
+    "amount": 1438.6,
+    "client": "Cliente 898",
+    "product": "Vivienda",
+    "branch": "Estelí"
+  },
+  {
+    "officer": "Carlos Silva",
+    "date": "2024-07-09T00:00:00.000",
+    "amount": 1906.39,
+    "client": "Cliente 332",
+    "product": "Agropecuario",
+    "branch": "León"
+  },
+  {
+    "officer": "Ana Torres",
+    "date": "2024-07-09T00:00:00.000",
+    "amount": 870.05,
+    "client": "Cliente 692",
+    "product": "Vivienda",
+    "branch": "Managua"
+  },
+  {
+    "officer": "Luis Méndez",
+    "date": "2024-07-09T00:00:00.000",
+    "amount": 2113.28,
+    "client": "Cliente 438",
+    "product": "Vivienda",
+    "branch": "Estelí"
+  },
+  {
+    "officer": "María Pérez",
+    "date": "2024-07-10T00:00:00.000",
+    "amount": 1825.12,
+    "client": "Cliente 370",
+    "product": "Agropecuario",
+    "branch": "Granada"
+  },
+  {
+    "officer": "Ana Torres",
+    "date": "2024-07-10T00:00:00.000",
+    "amount": 2951.05,
+    "client": "Cliente 481",
+    "product": "Consumo",
+    "branch": "Managua"
+  },
+  {
+    "officer": "José García",
+    "date": "2024-07-10T00:00:00.000",
+    "amount": 659.04,
+    "client": "Cliente 717",
+    "product": "Vivienda",
+    "branch": "Estelí"
+  },
+  {
+    "officer": "Carlos Silva",
+    "date": "2024-07-10T00:00:00.000",
+    "amount": 1991.14,
+    "client": "Cliente 41",
+    "product": "Agropecuario",
+    "branch": "Chinandega"
+  },
+  {
+    "officer": "Carlos Silva",
+    "date": "2024-07-11T00:00:00.000",
+    "amount": 1883.98,
+    "client": "Cliente 592",
+    "product": "Microcrédito",
+    "branch": "Managua"
+  },
+  {
+    "officer": "Luis Méndez",
+    "date": "2024-07-11T00:00:00.000",
+    "amount": 2448.59,
+    "client": "Cliente 626",
+    "product": "Microcrédito",
+    "branch": "Granada"
+  },
+  {
+    "officer": "Ana Torres",
+    "date": "2024-07-12T00:00:00.000",
+    "amount": 805.56,
+    "client": "Cliente 69",
+    "product": "Microcrédito",
+    "branch": "Chinandega"
+  },
+  {
+    "officer": "José García",
+    "date": "2024-07-12T00:00:00.000",
+    "amount": 1512.53,
+    "client": "Cliente 801",
+    "product": "Agropecuario",
+    "branch": "Estelí"
+  },
+  {
+    "officer": "Carlos Silva",
+    "date": "2024-07-13T00:00:00.000",
+    "amount": 954.5,
+    "client": "Cliente 918",
+    "product": "Vivienda",
+    "branch": "Granada"
+  },
+  {
+    "officer": "María Pérez",
+    "date": "2024-07-13T00:00:00.000",
+    "amount": 516.95,
+    "client": "Cliente 389",
+    "product": "Vivienda",
+    "branch": "Estelí"
+  },
+  {
+    "officer": "Carlos Silva",
+    "date": "2024-07-13T00:00:00.000",
+    "amount": 2279.63,
+    "client": "Cliente 441",
+    "product": "Agropecuario",
+    "branch": "Managua"
+  },
+  {
+    "officer": "José García",
+    "date": "2024-07-13T00:00:00.000",
+    "amount": 598.91,
+    "client": "Cliente 757",
+    "product": "Microcrédito",
+    "branch": "Chinandega"
+  },
+  {
+    "officer": "Ana Torres",
+    "date": "2024-07-13T00:00:00.000",
+    "amount": 2600.77,
+    "client": "Cliente 49",
+    "product": "Microcrédito",
+    "branch": "Estelí"
+  },
+  {
+    "officer": "José García",
+    "date": "2024-07-13T00:00:00.000",
+    "amount": 2276.96,
+    "client": "Cliente 823",
+    "product": "Consumo",
+    "branch": "Granada"
+  },
+  {
+    "officer": "Luis Méndez",
+    "date": "2024-07-14T00:00:00.000",
+    "amount": 657.5,
+    "client": "Cliente 704",
+    "product": "Consumo",
+    "branch": "Granada"
+  },
+  {
+    "officer": "María Pérez",
+    "date": "2024-07-14T00:00:00.000",
+    "amount": 2158.72,
+    "client": "Cliente 648",
+    "product": "Agropecuario",
+    "branch": "Granada"
+  },
+  {
+    "officer": "Ana Torres",
+    "date": "2024-07-15T00:00:00.000",
+    "amount": 1641.93,
+    "client": "Cliente 197",
+    "product": "Microcrédito",
+    "branch": "Chinandega"
+  },
+  {
+    "officer": "José García",
+    "date": "2024-07-15T00:00:00.000",
+    "amount": 2122.3,
+    "client": "Cliente 120",
+    "product": "Microcrédito",
+    "branch": "Estelí"
+  },
+  {
+    "officer": "José García",
+    "date": "2024-07-15T00:00:00.000",
+    "amount": 657.39,
+    "client": "Cliente 574",
+    "product": "Vivienda",
+    "branch": "Granada"
+  },
+  {
+    "officer": "José García",
+    "date": "2024-07-16T00:00:00.000",
+    "amount": 2244.32,
+    "client": "Cliente 62",
+    "product": "Agropecuario",
+    "branch": "León"
+  },
+  {
+    "officer": "Ana Torres",
+    "date": "2024-07-16T00:00:00.000",
+    "amount": 1017.73,
+    "client": "Cliente 149",
+    "product": "Consumo",
+    "branch": "Granada"
+  },
+  {
+    "officer": "Ana Torres",
+    "date": "2024-07-17T00:00:00.000",
+    "amount": 2801.96,
+    "client": "Cliente 48",
+    "product": "Microcrédito",
+    "branch": "Managua"
+  },
+  {
+    "officer": "María Pérez",
+    "date": "2024-07-17T00:00:00.000",
+    "amount": 617.29,
+    "client": "Cliente 301",
+    "product": "Microcrédito",
+    "branch": "Managua"
+  },
+  {
+    "officer": "Luis Méndez",
+    "date": "2024-07-18T00:00:00.000",
+    "amount": 2896.24,
+    "client": "Cliente 757",
+    "product": "Consumo",
+    "branch": "Managua"
+  },
+  {
+    "officer": "Ana Torres",
+    "date": "2024-07-18T00:00:00.000",
+    "amount": 2145.31,
+    "client": "Cliente 952",
+    "product": "Agropecuario",
+    "branch": "León"
+  },
+  {
+    "officer": "María Pérez",
+    "date": "2024-07-18T00:00:00.000",
+    "amount": 1288.71,
+    "client": "Cliente 596",
+    "product": "Agropecuario",
+    "branch": "Estelí"
+  },
+  {
+    "officer": "Luis Méndez",
+    "date": "2024-07-18T00:00:00.000",
+    "amount": 1811.05,
+    "client": "Cliente 504",
+    "product": "Vivienda",
+    "branch": "León"
+  },
+  {
+    "officer": "José García",
+    "date": "2024-07-18T00:00:00.000",
+    "amount": 1123.4,
+    "client": "Cliente 701",
+    "product": "Agropecuario",
+    "branch": "Chinandega"
+  },
+  {
+    "officer": "Ana Torres",
+    "date": "2024-07-18T00:00:00.000",
+    "amount": 2369.17,
+    "client": "Cliente 790",
+    "product": "Agropecuario",
+    "branch": "Managua"
+  },
+  {
+    "officer": "Luis Méndez",
+    "date": "2024-07-19T00:00:00.000",
+    "amount": 1708.45,
+    "client": "Cliente 810",
+    "product": "Agropecuario",
+    "branch": "Granada"
+  },
+  {
+    "officer": "Carlos Silva",
+    "date": "2024-07-19T00:00:00.000",
+    "amount": 1545.35,
+    "client": "Cliente 216",
+    "product": "Consumo",
+    "branch": "Chinandega"
+  },
+  {
+    "officer": "María Pérez",
+    "date": "2024-07-19T00:00:00.000",
+    "amount": 2262.16,
+    "client": "Cliente 92",
+    "product": "Microcrédito",
+    "branch": "Estelí"
+  },
+  {
+    "officer": "Carlos Silva",
+    "date": "2024-07-19T00:00:00.000",
+    "amount": 1921.88,
+    "client": "Cliente 634",
+    "product": "Consumo",
+    "branch": "Estelí"
+  },
+  {
+    "officer": "Ana Torres",
+    "date": "2024-07-19T00:00:00.000",
+    "amount": 816.43,
+    "client": "Cliente 760",
+    "product": "Microcrédito",
+    "branch": "Chinandega"
+  },
+  {
+    "officer": "Luis Méndez",
+    "date": "2024-07-19T00:00:00.000",
+    "amount": 2362.35,
+    "client": "Cliente 162",
+    "product": "Vivienda",
+    "branch": "Granada"
+  },
+  {
+    "officer": "Carlos Silva",
+    "date": "2024-07-20T00:00:00.000",
+    "amount": 2448.92,
+    "client": "Cliente 551",
+    "product": "Microcrédito",
+    "branch": "Managua"
+  },
+  {
+    "officer": "María Pérez",
+    "date": "2024-07-20T00:00:00.000",
+    "amount": 1645.5,
+    "client": "Cliente 575",
+    "product": "Microcrédito",
+    "branch": "Managua"
+  },
+  {
+    "officer": "Ana Torres",
+    "date": "2024-07-20T00:00:00.000",
+    "amount": 2529.79,
+    "client": "Cliente 323",
+    "product": "Microcrédito",
+    "branch": "Estelí"
+  },
+  {
+    "officer": "José García",
+    "date": "2024-07-20T00:00:00.000",
+    "amount": 1201.29,
+    "client": "Cliente 865",
+    "product": "Microcrédito",
+    "branch": "Estelí"
+  },
+  {
+    "officer": "José García",
+    "date": "2024-07-20T00:00:00.000",
+    "amount": 1350.66,
+    "client": "Cliente 295",
+    "product": "Microcrédito",
+    "branch": "Chinandega"
+  },
+  {
+    "officer": "Luis Méndez",
+    "date": "2024-07-20T00:00:00.000",
+    "amount": 1439.93,
+    "client": "Cliente 765",
+    "product": "Agropecuario",
+    "branch": "Granada"
+  },
+  {
+    "officer": "José García",
+    "date": "2024-07-21T00:00:00.000",
+    "amount": 2579.77,
+    "client": "Cliente 30",
+    "product": "Vivienda",
+    "branch": "Chinandega"
+  },
+  {
+    "officer": "María Pérez",
+    "date": "2024-07-21T00:00:00.000",
+    "amount": 1827.0,
+    "client": "Cliente 329",
+    "product": "Microcrédito",
+    "branch": "Granada"
+  },
+  {
+    "officer": "Ana Torres",
+    "date": "2024-07-21T00:00:00.000",
+    "amount": 2378.68,
+    "client": "Cliente 313",
+    "product": "Vivienda",
+    "branch": "Granada"
+  },
+  {
+    "officer": "Carlos Silva",
+    "date": "2024-07-21T00:00:00.000",
+    "amount": 2364.35,
+    "client": "Cliente 719",
+    "product": "Agropecuario",
+    "branch": "Chinandega"
+  },
+  {
+    "officer": "Luis Méndez",
+    "date": "2024-07-21T00:00:00.000",
+    "amount": 1904.88,
+    "client": "Cliente 834",
+    "product": "Vivienda",
+    "branch": "León"
+  },
+  {
+    "officer": "María Pérez",
+    "date": "2024-07-22T00:00:00.000",
+    "amount": 1072.27,
+    "client": "Cliente 345",
+    "product": "Microcrédito",
+    "branch": "León"
+  },
+  {
+    "officer": "José García",
+    "date": "2024-07-22T00:00:00.000",
+    "amount": 2015.22,
+    "client": "Cliente 93",
+    "product": "Microcrédito",
+    "branch": "Granada"
+  },
+  {
+    "officer": "Carlos Silva",
+    "date": "2024-07-23T00:00:00.000",
+    "amount": 613.15,
+    "client": "Cliente 105",
+    "product": "Microcrédito",
+    "branch": "Chinandega"
+  },
+  {
+    "officer": "Ana Torres",
+    "date": "2024-07-23T00:00:00.000",
+    "amount": 2565.79,
+    "client": "Cliente 437",
+    "product": "Vivienda",
+    "branch": "Estelí"
+  },
+  {
+    "officer": "María Pérez",
+    "date": "2024-07-23T00:00:00.000",
+    "amount": 988.11,
+    "client": "Cliente 732",
+    "product": "Vivienda",
+    "branch": "Chinandega"
+  },
+  {
+    "officer": "Ana Torres",
+    "date": "2024-07-23T00:00:00.000",
+    "amount": 1832.23,
+    "client": "Cliente 411",
+    "product": "Consumo",
+    "branch": "Estelí"
+  },
+  {
+    "officer": "Carlos Silva",
+    "date": "2024-07-23T00:00:00.000",
+    "amount": 2460.2,
+    "client": "Cliente 836",
+    "product": "Agropecuario",
+    "branch": "León"
+  },
+  {
+    "officer": "Luis Méndez",
+    "date": "2024-07-24T00:00:00.000",
+    "amount": 2127.1,
+    "client": "Cliente 343",
+    "product": "Agropecuario",
+    "branch": "Estelí"
+  },
+  {
+    "officer": "María Pérez",
+    "date": "2024-07-24T00:00:00.000",
+    "amount": 2705.76,
+    "client": "Cliente 34",
+    "product": "Microcrédito",
+    "branch": "Granada"
+  },
+  {
+    "officer": "Carlos Silva",
+    "date": "2024-07-25T00:00:00.000",
+    "amount": 1031.46,
+    "client": "Cliente 675",
+    "product": "Vivienda",
+    "branch": "Chinandega"
+  },
+  {
+    "officer": "María Pérez",
+    "date": "2024-07-25T00:00:00.000",
+    "amount": 953.11,
+    "client": "Cliente 331",
+    "product": "Agropecuario",
+    "branch": "Estelí"
+  },
+  {
+    "officer": "José García",
+    "date": "2024-07-26T00:00:00.000",
+    "amount": 1998.66,
+    "client": "Cliente 376",
+    "product": "Consumo",
+    "branch": "León"
+  },
+  {
+    "officer": "María Pérez",
+    "date": "2024-07-26T00:00:00.000",
+    "amount": 1999.71,
+    "client": "Cliente 427",
+    "product": "Agropecuario",
+    "branch": "Managua"
+  },
+  {
+    "officer": "José García",
+    "date": "2024-07-27T00:00:00.000",
+    "amount": 1549.85,
+    "client": "Cliente 327",
+    "product": "Agropecuario",
+    "branch": "Estelí"
+  },
+  {
+    "officer": "Luis Méndez",
+    "date": "2024-07-27T00:00:00.000",
+    "amount": 1101.88,
+    "client": "Cliente 658",
+    "product": "Vivienda",
+    "branch": "Estelí"
+  },
+  {
+    "officer": "Carlos Silva",
+    "date": "2024-07-28T00:00:00.000",
+    "amount": 1789.77,
+    "client": "Cliente 526",
+    "product": "Microcrédito",
+    "branch": "Granada"
+  },
+  {
+    "officer": "Carlos Silva",
+    "date": "2024-07-28T00:00:00.000",
+    "amount": 2234.6,
+    "client": "Cliente 828",
+    "product": "Vivienda",
+    "branch": "León"
+  },
+  {
+    "officer": "María Pérez",
+    "date": "2024-07-28T00:00:00.000",
+    "amount": 1743.12,
+    "client": "Cliente 134",
+    "product": "Microcrédito",
+    "branch": "Estelí"
+  },
+  {
+    "officer": "Ana Torres",
+    "date": "2024-07-29T00:00:00.000",
+    "amount": 1259.87,
+    "client": "Cliente 216",
+    "product": "Microcrédito",
+    "branch": "Managua"
+  },
+  {
+    "officer": "Luis Méndez",
+    "date": "2024-07-29T00:00:00.000",
+    "amount": 588.49,
+    "client": "Cliente 872",
+    "product": "Consumo",
+    "branch": "Granada"
+  },
+  {
+    "officer": "María Pérez",
+    "date": "2024-07-29T00:00:00.000",
+    "amount": 2572.1,
+    "client": "Cliente 632",
+    "product": "Consumo",
+    "branch": "Estelí"
+  },
+  {
+    "officer": "Luis Méndez",
+    "date": "2024-07-30T00:00:00.000",
+    "amount": 2313.25,
+    "client": "Cliente 353",
+    "product": "Consumo",
+    "branch": "Granada"
+  },
+  {
+    "officer": "José García",
+    "date": "2024-07-30T00:00:00.000",
+    "amount": 2154.63,
+    "client": "Cliente 147",
+    "product": "Vivienda",
+    "branch": "Estelí"
+  },
+  {
+    "officer": "Luis Méndez",
+    "date": "2024-07-30T00:00:00.000",
+    "amount": 1838.61,
+    "client": "Cliente 315",
+    "product": "Vivienda",
+    "branch": "León"
+  },
+  {
+    "officer": "José García",
+    "date": "2024-07-30T00:00:00.000",
+    "amount": 1710.05,
+    "client": "Cliente 126",
+    "product": "Consumo",
+    "branch": "Managua"
+  },
+  {
+    "officer": "José García",
+    "date": "2024-07-30T00:00:00.000",
+    "amount": 1016.4,
+    "client": "Cliente 430",
+    "product": "Agropecuario",
+    "branch": "Estelí"
+  },
+  {
+    "officer": "Ana Torres",
+    "date": "2024-07-30T00:00:00.000",
+    "amount": 609.13,
+    "client": "Cliente 103",
+    "product": "Microcrédito",
+    "branch": "Chinandega"
+  },
+  {
+    "officer": "Carlos Silva",
+    "date": "2024-07-31T00:00:00.000",
+    "amount": 2585.45,
+    "client": "Cliente 548",
+    "product": "Agropecuario",
+    "branch": "Granada"
+  },
+  {
+    "officer": "Luis Méndez",
+    "date": "2024-07-31T00:00:00.000",
+    "amount": 2504.13,
+    "client": "Cliente 530",
+    "product": "Consumo",
+    "branch": "Managua"
+  },
+  {
+    "officer": "María Pérez",
+    "date": "2024-07-31T00:00:00.000",
+    "amount": 2750.02,
+    "client": "Cliente 439",
+    "product": "Agropecuario",
+    "branch": "Chinandega"
+  },
+  {
+    "officer": "María Pérez",
+    "date": "2024-07-31T00:00:00.000",
+    "amount": 814.2,
+    "client": "Cliente 13",
+    "product": "Agropecuario",
+    "branch": "Chinandega"
+  },
+  {
+    "officer": "María Pérez",
+    "date": "2024-07-31T00:00:00.000",
+    "amount": 2682.97,
+    "client": "Cliente 362",
+    "product": "Vivienda",
+    "branch": "Managua"
+  },
+  {
+    "officer": "Carlos Silva",
+    "date": "2024-08-01T00:00:00.000",
+    "amount": 2415.35,
+    "client": "Cliente 454",
+    "product": "Consumo",
+    "branch": "León"
+  },
+  {
+    "officer": "Luis Méndez",
+    "date": "2024-08-01T00:00:00.000",
+    "amount": 2962.63,
+    "client": "Cliente 455",
+    "product": "Microcrédito",
+    "branch": "Estelí"
+  },
+  {
+    "officer": "José García",
+    "date": "2024-08-01T00:00:00.000",
+    "amount": 765.21,
+    "client": "Cliente 323",
+    "product": "Vivienda",
+    "branch": "León"
+  },
+  {
+    "officer": "Ana Torres",
+    "date": "2024-08-02T00:00:00.000",
+    "amount": 733.67,
+    "client": "Cliente 968",
+    "product": "Microcrédito",
+    "branch": "Estelí"
+  },
+  {
+    "officer": "Luis Méndez",
+    "date": "2024-08-02T00:00:00.000",
+    "amount": 1917.55,
+    "client": "Cliente 149",
+    "product": "Vivienda",
+    "branch": "Chinandega"
+  },
+  {
+    "officer": "Ana Torres",
+    "date": "2024-08-02T00:00:00.000",
+    "amount": 1566.12,
+    "client": "Cliente 543",
+    "product": "Vivienda",
+    "branch": "Chinandega"
+  },
+  {
+    "officer": "Ana Torres",
+    "date": "2024-08-02T00:00:00.000",
+    "amount": 2747.42,
+    "client": "Cliente 101",
+    "product": "Agropecuario",
+    "branch": "Managua"
+  },
+  {
+    "officer": "José García",
+    "date": "2024-08-02T00:00:00.000",
+    "amount": 539.71,
+    "client": "Cliente 950",
+    "product": "Agropecuario",
+    "branch": "Granada"
+  },
+  {
+    "officer": "María Pérez",
+    "date": "2024-08-03T00:00:00.000",
+    "amount": 2362.87,
+    "client": "Cliente 849",
+    "product": "Microcrédito",
+    "branch": "Granada"
+  },
+  {
+    "officer": "José García",
+    "date": "2024-08-03T00:00:00.000",
+    "amount": 761.96,
+    "client": "Cliente 928",
+    "product": "Consumo",
+    "branch": "León"
+  },
+  {
+    "officer": "Luis Méndez",
+    "date": "2024-08-03T00:00:00.000",
+    "amount": 1564.04,
+    "client": "Cliente 254",
+    "product": "Agropecuario",
+    "branch": "Chinandega"
+  },
+  {
+    "officer": "Carlos Silva",
+    "date": "2024-08-03T00:00:00.000",
+    "amount": 898.8,
+    "client": "Cliente 884",
+    "product": "Consumo",
+    "branch": "León"
+  },
+  {
+    "officer": "Carlos Silva",
+    "date": "2024-08-03T00:00:00.000",
+    "amount": 2419.46,
+    "client": "Cliente 341",
+    "product": "Agropecuario",
+    "branch": "Estelí"
+  },
+  {
+    "officer": "Luis Méndez",
+    "date": "2024-08-04T00:00:00.000",
+    "amount": 638.44,
+    "client": "Cliente 683",
+    "product": "Agropecuario",
+    "branch": "Estelí"
+  },
+  {
+    "officer": "José García",
+    "date": "2024-08-04T00:00:00.000",
+    "amount": 660.9,
+    "client": "Cliente 909",
+    "product": "Microcrédito",
+    "branch": "Managua"
+  },
+  {
+    "officer": "Ana Torres",
+    "date": "2024-08-04T00:00:00.000",
+    "amount": 2466.02,
+    "client": "Cliente 450",
+    "product": "Consumo",
+    "branch": "Granada"
+  },
+  {
+    "officer": "José García",
+    "date": "2024-08-04T00:00:00.000",
+    "amount": 1557.12,
+    "client": "Cliente 184",
+    "product": "Microcrédito",
+    "branch": "Granada"
+  },
+  {
+    "officer": "María Pérez",
+    "date": "2024-08-04T00:00:00.000",
+    "amount": 2779.9,
+    "client": "Cliente 817",
+    "product": "Consumo",
+    "branch": "Estelí"
+  },
+  {
+    "officer": "Ana Torres",
+    "date": "2024-08-04T00:00:00.000",
+    "amount": 1576.09,
+    "client": "Cliente 533",
+    "product": "Agropecuario",
+    "branch": "Estelí"
+  },
+  {
+    "officer": "Ana Torres",
+    "date": "2024-08-05T00:00:00.000",
+    "amount": 609.06,
+    "client": "Cliente 530",
+    "product": "Vivienda",
+    "branch": "Estelí"
+  },
+  {
+    "officer": "Ana Torres",
+    "date": "2024-08-05T00:00:00.000",
+    "amount": 2727.61,
+    "client": "Cliente 789",
+    "product": "Consumo",
+    "branch": "Estelí"
+  },
+  {
+    "officer": "Ana Torres",
+    "date": "2024-08-05T00:00:00.000",
+    "amount": 1879.73,
+    "client": "Cliente 159",
+    "product": "Vivienda",
+    "branch": "León"
+  },
+  {
+    "officer": "Ana Torres",
+    "date": "2024-08-05T00:00:00.000",
+    "amount": 789.59,
+    "client": "Cliente 344",
+    "product": "Consumo",
+    "branch": "Granada"
+  },
+  {
+    "officer": "Ana Torres",
+    "date": "2024-08-05T00:00:00.000",
+    "amount": 2414.82,
+    "client": "Cliente 680",
+    "product": "Consumo",
+    "branch": "Estelí"
+  },
+  {
+    "officer": "José García",
+    "date": "2024-08-05T00:00:00.000",
+    "amount": 2629.79,
+    "client": "Cliente 392",
+    "product": "Consumo",
+    "branch": "Granada"
+  },
+  {
+    "officer": "José García",
+    "date": "2024-08-06T00:00:00.000",
+    "amount": 2427.08,
+    "client": "Cliente 48",
+    "product": "Vivienda",
+    "branch": "Managua"
+  },
+  {
+    "officer": "María Pérez",
+    "date": "2024-08-06T00:00:00.000",
+    "amount": 2372.27,
+    "client": "Cliente 268",
+    "product": "Consumo",
+    "branch": "Chinandega"
+  },
+  {
+    "officer": "Luis Méndez",
+    "date": "2024-08-06T00:00:00.000",
+    "amount": 2177.56,
+    "client": "Cliente 120",
+    "product": "Consumo",
+    "branch": "Granada"
+  },
+  {
+    "officer": "Luis Méndez",
+    "date": "2024-08-06T00:00:00.000",
+    "amount": 1341.04,
+    "client": "Cliente 415",
+    "product": "Microcrédito",
+    "branch": "Chinandega"
+  },
+  {
+    "officer": "María Pérez",
+    "date": "2024-08-06T00:00:00.000",
+    "amount": 1798.89,
+    "client": "Cliente 200",
+    "product": "Consumo",
+    "branch": "Estelí"
+  },
+  {
+    "officer": "Luis Méndez",
+    "date": "2024-08-07T00:00:00.000",
+    "amount": 2071.99,
+    "client": "Cliente 483",
+    "product": "Consumo",
+    "branch": "Chinandega"
+  },
+  {
+    "officer": "Carlos Silva",
+    "date": "2024-08-07T00:00:00.000",
+    "amount": 1299.28,
+    "client": "Cliente 347",
+    "product": "Vivienda",
+    "branch": "Granada"
+  },
+  {
+    "officer": "Luis Méndez",
+    "date": "2024-08-07T00:00:00.000",
+    "amount": 1303.28,
+    "client": "Cliente 386",
+    "product": "Vivienda",
+    "branch": "Managua"
+  },
+  {
+    "officer": "Ana Torres",
+    "date": "2024-08-07T00:00:00.000",
+    "amount": 1128.55,
+    "client": "Cliente 500",
+    "product": "Microcrédito",
+    "branch": "León"
+  },
+  {
+    "officer": "José García",
+    "date": "2024-08-07T00:00:00.000",
+    "amount": 1078.32,
+    "client": "Cliente 843",
+    "product": "Agropecuario",
+    "branch": "León"
+  },
+  {
+    "officer": "Ana Torres",
+    "date": "2024-08-07T00:00:00.000",
+    "amount": 2845.85,
+    "client": "Cliente 931",
+    "product": "Consumo",
+    "branch": "León"
+  },
+  {
+    "officer": "Ana Torres",
+    "date": "2024-08-08T00:00:00.000",
+    "amount": 540.1,
+    "client": "Cliente 264",
+    "product": "Vivienda",
+    "branch": "Estelí"
+  },
+  {
+    "officer": "María Pérez",
+    "date": "2024-08-08T00:00:00.000",
+    "amount": 2589.23,
+    "client": "Cliente 660",
+    "product": "Agropecuario",
+    "branch": "León"
+  },
+  {
+    "officer": "Carlos Silva",
+    "date": "2024-08-09T00:00:00.000",
+    "amount": 2225.01,
+    "client": "Cliente 712",
+    "product": "Microcrédito",
+    "branch": "Estelí"
+  },
+  {
+    "officer": "Carlos Silva",
+    "date": "2024-08-09T00:00:00.000",
+    "amount": 2762.43,
+    "client": "Cliente 456",
+    "product": "Agropecuario",
+    "branch": "Chinandega"
+  },
+  {
+    "officer": "María Pérez",
+    "date": "2024-08-10T00:00:00.000",
+    "amount": 2713.3,
+    "client": "Cliente 701",
+    "product": "Consumo",
+    "branch": "León"
+  },
+  {
+    "officer": "Ana Torres",
+    "date": "2024-08-10T00:00:00.000",
+    "amount": 896.73,
+    "client": "Cliente 945",
+    "product": "Microcrédito",
+    "branch": "Managua"
+  },
+  {
+    "officer": "Luis Méndez",
+    "date": "2024-08-10T00:00:00.000",
+    "amount": 2227.22,
+    "client": "Cliente 451",
+    "product": "Agropecuario",
+    "branch": "Granada"
+  },
+  {
+    "officer": "Luis Méndez",
+    "date": "2024-08-11T00:00:00.000",
+    "amount": 1272.02,
+    "client": "Cliente 389",
+    "product": "Agropecuario",
+    "branch": "Estelí"
+  },
+  {
+    "officer": "Ana Torres",
+    "date": "2024-08-11T00:00:00.000",
+    "amount": 661.73,
+    "client": "Cliente 77",
+    "product": "Microcrédito",
+    "branch": "León"
+  },
+  {
+    "officer": "María Pérez",
+    "date": "2024-08-11T00:00:00.000",
+    "amount": 1128.85,
+    "client": "Cliente 544",
+    "product": "Agropecuario",
+    "branch": "Managua"
+  },
+  {
+    "officer": "José García",
+    "date": "2024-08-11T00:00:00.000",
+    "amount": 915.03,
+    "client": "Cliente 755",
+    "product": "Vivienda",
+    "branch": "Estelí"
+  },
+  {
+    "officer": "Ana Torres",
+    "date": "2024-08-12T00:00:00.000",
+    "amount": 2262.09,
+    "client": "Cliente 196",
+    "product": "Consumo",
+    "branch": "Managua"
+  },
+  {
+    "officer": "María Pérez",
+    "date": "2024-08-12T00:00:00.000",
+    "amount": 2406.19,
+    "client": "Cliente 19",
+    "product": "Vivienda",
+    "branch": "Estelí"
+  },
+  {
+    "officer": "Carlos Silva",
+    "date": "2024-08-12T00:00:00.000",
+    "amount": 1009.39,
+    "client": "Cliente 270",
+    "product": "Microcrédito",
+    "branch": "León"
+  },
+  {
+    "officer": "Luis Méndez",
+    "date": "2024-08-12T00:00:00.000",
+    "amount": 1304.9,
+    "client": "Cliente 636",
+    "product": "Agropecuario",
+    "branch": "Chinandega"
+  },
+  {
+    "officer": "Ana Torres",
+    "date": "2024-08-12T00:00:00.000",
+    "amount": 1063.76,
+    "client": "Cliente 860",
+    "product": "Agropecuario",
+    "branch": "León"
+  },
+  {
+    "officer": "Carlos Silva",
+    "date": "2024-08-13T00:00:00.000",
+    "amount": 1748.25,
+    "client": "Cliente 687",
+    "product": "Consumo",
+    "branch": "Managua"
+  },
+  {
+    "officer": "Carlos Silva",
+    "date": "2024-08-13T00:00:00.000",
+    "amount": 1762.16,
+    "client": "Cliente 471",
+    "product": "Consumo",
+    "branch": "Managua"
+  },
+  {
+    "officer": "José García",
+    "date": "2024-08-13T00:00:00.000",
+    "amount": 1301.52,
+    "client": "Cliente 714",
+    "product": "Vivienda",
+    "branch": "Chinandega"
+  },
+  {
+    "officer": "María Pérez",
+    "date": "2024-08-13T00:00:00.000",
+    "amount": 1371.07,
+    "client": "Cliente 124",
+    "product": "Agropecuario",
+    "branch": "Estelí"
+  },
+  {
+    "officer": "Ana Torres",
+    "date": "2024-08-13T00:00:00.000",
+    "amount": 2768.19,
+    "client": "Cliente 326",
+    "product": "Microcrédito",
+    "branch": "Managua"
+  },
+  {
+    "officer": "Carlos Silva",
+    "date": "2024-08-14T00:00:00.000",
+    "amount": 2271.33,
+    "client": "Cliente 158",
+    "product": "Vivienda",
+    "branch": "Managua"
+  },
+  {
+    "officer": "Ana Torres",
+    "date": "2024-08-14T00:00:00.000",
+    "amount": 2255.67,
+    "client": "Cliente 332",
+    "product": "Consumo",
+    "branch": "Chinandega"
+  },
+  {
+    "officer": "María Pérez",
+    "date": "2024-08-14T00:00:00.000",
+    "amount": 1230.58,
+    "client": "Cliente 719",
+    "product": "Microcrédito",
+    "branch": "Estelí"
+  },
+  {
+    "officer": "José García",
+    "date": "2024-08-15T00:00:00.000",
+    "amount": 1837.08,
+    "client": "Cliente 94",
+    "product": "Agropecuario",
+    "branch": "Estelí"
+  },
+  {
+    "officer": "Luis Méndez",
+    "date": "2024-08-15T00:00:00.000",
+    "amount": 2854.42,
+    "client": "Cliente 480",
+    "product": "Agropecuario",
+    "branch": "Estelí"
+  },
+  {
+    "officer": "José García",
+    "date": "2024-08-15T00:00:00.000",
+    "amount": 616.56,
+    "client": "Cliente 358",
+    "product": "Microcrédito",
+    "branch": "León"
+  },
+  {
+    "officer": "José García",
+    "date": "2024-08-15T00:00:00.000",
+    "amount": 1178.67,
+    "client": "Cliente 482",
+    "product": "Microcrédito",
+    "branch": "Chinandega"
+  },
+  {
+    "officer": "María Pérez",
+    "date": "2024-08-15T00:00:00.000",
+    "amount": 2828.59,
+    "client": "Cliente 862",
+    "product": "Agropecuario",
+    "branch": "León"
+  },
+  {
+    "officer": "José García",
+    "date": "2024-08-15T00:00:00.000",
+    "amount": 1233.86,
+    "client": "Cliente 675",
+    "product": "Agropecuario",
+    "branch": "León"
+  },
+  {
+    "officer": "Ana Torres",
+    "date": "2024-08-16T00:00:00.000",
+    "amount": 1157.04,
+    "client": "Cliente 7",
+    "product": "Consumo",
+    "branch": "Estelí"
+  },
+  {
+    "officer": "María Pérez",
+    "date": "2024-08-16T00:00:00.000",
+    "amount": 1567.91,
+    "client": "Cliente 981",
+    "product": "Agropecuario",
+    "branch": "Granada"
+  },
+  {
+    "officer": "Ana Torres",
+    "date": "2024-08-16T00:00:00.000",
+    "amount": 2724.99,
+    "client": "Cliente 882",
+    "product": "Consumo",
+    "branch": "Managua"
+  },
+  {
+    "officer": "Ana Torres",
+    "date": "2024-08-16T00:00:00.000",
+    "amount": 1090.31,
+    "client": "Cliente 351",
+    "product": "Microcrédito",
+    "branch": "Estelí"
+  },
+  {
+    "officer": "Luis Méndez",
+    "date": "2024-08-16T00:00:00.000",
+    "amount": 1831.7,
+    "client": "Cliente 154",
+    "product": "Microcrédito",
+    "branch": "Estelí"
+  },
+  {
+    "officer": "María Pérez",
+    "date": "2024-08-16T00:00:00.000",
+    "amount": 1376.34,
+    "client": "Cliente 402",
+    "product": "Agropecuario",
+    "branch": "Estelí"
+  },
+  {
+    "officer": "Ana Torres",
+    "date": "2024-08-17T00:00:00.000",
+    "amount": 830.09,
+    "client": "Cliente 790",
+    "product": "Consumo",
+    "branch": "Granada"
+  },
+  {
+    "officer": "Luis Méndez",
+    "date": "2024-08-17T00:00:00.000",
+    "amount": 1736.26,
+    "client": "Cliente 795",
+    "product": "Agropecuario",
+    "branch": "León"
+  },
+  {
+    "officer": "José García",
+    "date": "2024-08-17T00:00:00.000",
+    "amount": 517.95,
+    "client": "Cliente 800",
+    "product": "Microcrédito",
+    "branch": "Managua"
+  },
+  {
+    "officer": "José García",
+    "date": "2024-08-17T00:00:00.000",
+    "amount": 1342.03,
+    "client": "Cliente 92",
+    "product": "Vivienda",
+    "branch": "Chinandega"
+  },
+  {
+    "officer": "Carlos Silva",
+    "date": "2024-08-17T00:00:00.000",
+    "amount": 1048.09,
+    "client": "Cliente 901",
+    "product": "Consumo",
+    "branch": "Managua"
+  },
+  {
+    "officer": "María Pérez",
+    "date": "2024-08-17T00:00:00.000",
+    "amount": 1188.7,
+    "client": "Cliente 256",
+    "product": "Vivienda",
+    "branch": "Chinandega"
+  },
+  {
+    "officer": "José García",
+    "date": "2024-08-18T00:00:00.000",
+    "amount": 2278.28,
+    "client": "Cliente 678",
+    "product": "Vivienda",
+    "branch": "Chinandega"
+  },
+  {
+    "officer": "María Pérez",
+    "date": "2024-08-18T00:00:00.000",
+    "amount": 1929.27,
+    "client": "Cliente 324",
+    "product": "Consumo",
+    "branch": "León"
+  },
+  {
+    "officer": "Carlos Silva",
+    "date": "2024-08-18T00:00:00.000",
+    "amount": 2657.51,
+    "client": "Cliente 342",
+    "product": "Consumo",
+    "branch": "Chinandega"
+  },
+  {
+    "officer": "Ana Torres",
+    "date": "2024-08-18T00:00:00.000",
+    "amount": 2690.35,
+    "client": "Cliente 971",
+    "product": "Agropecuario",
+    "branch": "Managua"
+  },
+  {
+    "officer": "María Pérez",
+    "date": "2024-08-18T00:00:00.000",
+    "amount": 1803.29,
+    "client": "Cliente 736",
+    "product": "Vivienda",
+    "branch": "León"
+  },
+  {
+    "officer": "Carlos Silva",
+    "date": "2024-08-19T00:00:00.000",
+    "amount": 2767.48,
+    "client": "Cliente 118",
+    "product": "Vivienda",
+    "branch": "León"
+  },
+  {
+    "officer": "Carlos Silva",
+    "date": "2024-08-19T00:00:00.000",
+    "amount": 2975.44,
+    "client": "Cliente 352",
+    "product": "Vivienda",
+    "branch": "León"
+  },
+  {
+    "officer": "Luis Méndez",
+    "date": "2024-08-19T00:00:00.000",
+    "amount": 2378.69,
+    "client": "Cliente 273",
+    "product": "Consumo",
+    "branch": "Managua"
+  },
+  {
+    "officer": "María Pérez",
+    "date": "2024-08-19T00:00:00.000",
+    "amount": 2648.95,
+    "client": "Cliente 202",
+    "product": "Consumo",
+    "branch": "Estelí"
+  },
+  {
+    "officer": "María Pérez",
+    "date": "2024-08-19T00:00:00.000",
+    "amount": 1107.36,
+    "client": "Cliente 267",
+    "product": "Vivienda",
+    "branch": "Chinandega"
+  },
+  {
+    "officer": "María Pérez",
+    "date": "2024-08-20T00:00:00.000",
+    "amount": 2175.67,
+    "client": "Cliente 277",
+    "product": "Vivienda",
+    "branch": "Estelí"
+  },
+  {
+    "officer": "Luis Méndez",
+    "date": "2024-08-20T00:00:00.000",
+    "amount": 2514.02,
+    "client": "Cliente 774",
+    "product": "Agropecuario",
+    "branch": "León"
+  },
+  {
+    "officer": "Carlos Silva",
+    "date": "2024-08-20T00:00:00.000",
+    "amount": 2937.55,
+    "client": "Cliente 318",
+    "product": "Agropecuario",
+    "branch": "León"
+  },
+  {
+    "officer": "Luis Méndez",
+    "date": "2024-08-20T00:00:00.000",
+    "amount": 650.48,
+    "client": "Cliente 533",
+    "product": "Consumo",
+    "branch": "Granada"
+  },
+  {
+    "officer": "Luis Méndez",
+    "date": "2024-08-20T00:00:00.000",
+    "amount": 510.65,
+    "client": "Cliente 840",
+    "product": "Agropecuario",
+    "branch": "Estelí"
+  },
+  {
+    "officer": "Ana Torres",
+    "date": "2024-08-20T00:00:00.000",
+    "amount": 2195.51,
+    "client": "Cliente 931",
+    "product": "Vivienda",
+    "branch": "Granada"
+  },
+  {
+    "officer": "María Pérez",
+    "date": "2024-08-21T00:00:00.000",
+    "amount": 891.03,
+    "client": "Cliente 871",
+    "product": "Microcrédito",
+    "branch": "Granada"
+  },
+  {
+    "officer": "Ana Torres",
+    "date": "2024-08-21T00:00:00.000",
+    "amount": 1337.88,
+    "client": "Cliente 562",
+    "product": "Vivienda",
+    "branch": "Managua"
+  },
+  {
+    "officer": "Ana Torres",
+    "date": "2024-08-21T00:00:00.000",
+    "amount": 681.23,
+    "client": "Cliente 600",
+    "product": "Microcrédito",
+    "branch": "Managua"
+  },
+  {
+    "officer": "Ana Torres",
+    "date": "2024-08-21T00:00:00.000",
+    "amount": 679.16,
+    "client": "Cliente 442",
+    "product": "Vivienda",
+    "branch": "León"
+  },
+  {
+    "officer": "Luis Méndez",
+    "date": "2024-08-21T00:00:00.000",
+    "amount": 2121.67,
+    "client": "Cliente 393",
+    "product": "Microcrédito",
+    "branch": "Chinandega"
+  },
+  {
+    "officer": "Carlos Silva",
+    "date": "2024-08-22T00:00:00.000",
+    "amount": 2562.93,
+    "client": "Cliente 106",
+    "product": "Microcrédito",
+    "branch": "Estelí"
+  },
+  {
+    "officer": "María Pérez",
+    "date": "2024-08-22T00:00:00.000",
+    "amount": 2662.26,
+    "client": "Cliente 888",
+    "product": "Consumo",
+    "branch": "Managua"
+  },
+  {
+    "officer": "Ana Torres",
+    "date": "2024-08-22T00:00:00.000",
+    "amount": 1572.49,
+    "client": "Cliente 63",
+    "product": "Agropecuario",
+    "branch": "Managua"
+  },
+  {
+    "officer": "Luis Méndez",
+    "date": "2024-08-22T00:00:00.000",
+    "amount": 984.52,
+    "client": "Cliente 26",
+    "product": "Vivienda",
+    "branch": "Chinandega"
+  },
+  {
+    "officer": "María Pérez",
+    "date": "2024-08-22T00:00:00.000",
+    "amount": 2610.16,
+    "client": "Cliente 165",
+    "product": "Microcrédito",
+    "branch": "Chinandega"
+  },
+  {
+    "officer": "José García",
+    "date": "2024-08-22T00:00:00.000",
+    "amount": 711.11,
+    "client": "Cliente 854",
+    "product": "Consumo",
+    "branch": "Chinandega"
+  },
+  {
+    "officer": "Ana Torres",
+    "date": "2024-08-23T00:00:00.000",
+    "amount": 819.83,
+    "client": "Cliente 159",
+    "product": "Consumo",
+    "branch": "Granada"
+  },
+  {
+    "officer": "Ana Torres",
+    "date": "2024-08-23T00:00:00.000",
+    "amount": 850.17,
+    "client": "Cliente 940",
+    "product": "Consumo",
+    "branch": "Granada"
+  },
+  {
+    "officer": "María Pérez",
+    "date": "2024-08-23T00:00:00.000",
+    "amount": 1787.89,
+    "client": "Cliente 449",
+    "product": "Microcrédito",
+    "branch": "León"
+  },
+  {
+    "officer": "Luis Méndez",
+    "date": "2024-08-23T00:00:00.000",
+    "amount": 1001.84,
+    "client": "Cliente 303",
+    "product": "Agropecuario",
+    "branch": "Granada"
+  },
+  {
+    "officer": "Luis Méndez",
+    "date": "2024-08-24T00:00:00.000",
+    "amount": 859.67,
+    "client": "Cliente 217",
+    "product": "Consumo",
+    "branch": "Estelí"
+  },
+  {
+    "officer": "María Pérez",
+    "date": "2024-08-24T00:00:00.000",
+    "amount": 1993.31,
+    "client": "Cliente 643",
+    "product": "Consumo",
+    "branch": "León"
+  },
+  {
+    "officer": "José García",
+    "date": "2024-08-24T00:00:00.000",
+    "amount": 679.64,
+    "client": "Cliente 177",
+    "product": "Agropecuario",
+    "branch": "Chinandega"
+  },
+  {
+    "officer": "Luis Méndez",
+    "date": "2024-08-25T00:00:00.000",
+    "amount": 1764.98,
+    "client": "Cliente 806",
+    "product": "Microcrédito",
+    "branch": "Estelí"
+  },
+  {
+    "officer": "José García",
+    "date": "2024-08-25T00:00:00.000",
+    "amount": 1447.42,
+    "client": "Cliente 720",
+    "product": "Agropecuario",
+    "branch": "Chinandega"
+  },
+  {
+    "officer": "Ana Torres",
+    "date": "2024-08-25T00:00:00.000",
+    "amount": 1288.86,
+    "client": "Cliente 776",
+    "product": "Vivienda",
+    "branch": "Chinandega"
+  },
+  {
+    "officer": "Carlos Silva",
+    "date": "2024-08-25T00:00:00.000",
+    "amount": 1015.76,
+    "client": "Cliente 573",
+    "product": "Microcrédito",
+    "branch": "Chinandega"
+  },
+  {
+    "officer": "Ana Torres",
+    "date": "2024-08-26T00:00:00.000",
+    "amount": 2927.74,
+    "client": "Cliente 711",
+    "product": "Consumo",
+    "branch": "Granada"
+  },
+  {
+    "officer": "Luis Méndez",
+    "date": "2024-08-26T00:00:00.000",
+    "amount": 1077.88,
+    "client": "Cliente 648",
+    "product": "Microcrédito",
+    "branch": "Managua"
+  },
+  {
+    "officer": "Ana Torres",
+    "date": "2024-08-27T00:00:00.000",
+    "amount": 1435.87,
+    "client": "Cliente 301",
+    "product": "Vivienda",
+    "branch": "León"
+  },
+  {
+    "officer": "María Pérez",
+    "date": "2024-08-27T00:00:00.000",
+    "amount": 1463.3,
+    "client": "Cliente 319",
+    "product": "Microcrédito",
+    "branch": "Granada"
+  },
+  {
+    "officer": "María Pérez",
+    "date": "2024-08-27T00:00:00.000",
+    "amount": 2725.09,
+    "client": "Cliente 9",
+    "product": "Microcrédito",
+    "branch": "Granada"
+  },
+  {
+    "officer": "Luis Méndez",
+    "date": "2024-08-27T00:00:00.000",
+    "amount": 665.74,
+    "client": "Cliente 948",
+    "product": "Agropecuario",
+    "branch": "Granada"
+  },
+  {
+    "officer": "Ana Torres",
+    "date": "2024-08-27T00:00:00.000",
+    "amount": 2603.83,
+    "client": "Cliente 752",
+    "product": "Vivienda",
+    "branch": "León"
+  },
+  {
+    "officer": "Ana Torres",
+    "date": "2024-08-27T00:00:00.000",
+    "amount": 1809.18,
+    "client": "Cliente 681",
+    "product": "Consumo",
+    "branch": "Managua"
+  },
+  {
+    "officer": "Luis Méndez",
+    "date": "2024-08-28T00:00:00.000",
+    "amount": 1826.7,
+    "client": "Cliente 881",
+    "product": "Vivienda",
+    "branch": "Granada"
+  },
+  {
+    "officer": "Carlos Silva",
+    "date": "2024-08-28T00:00:00.000",
+    "amount": 2161.81,
+    "client": "Cliente 216",
+    "product": "Vivienda",
+    "branch": "Granada"
+  },
+  {
+    "officer": "María Pérez",
+    "date": "2024-08-29T00:00:00.000",
+    "amount": 1380.43,
+    "client": "Cliente 235",
+    "product": "Consumo",
+    "branch": "Granada"
+  },
+  {
+    "officer": "Ana Torres",
+    "date": "2024-08-29T00:00:00.000",
+    "amount": 669.62,
+    "client": "Cliente 575",
+    "product": "Vivienda",
+    "branch": "Managua"
+  },
+  {
+    "officer": "José García",
+    "date": "2024-08-29T00:00:00.000",
+    "amount": 529.87,
+    "client": "Cliente 200",
+    "product": "Vivienda",
+    "branch": "Estelí"
+  },
+  {
+    "officer": "Luis Méndez",
+    "date": "2024-08-29T00:00:00.000",
+    "amount": 2568.35,
+    "client": "Cliente 62",
+    "product": "Agropecuario",
+    "branch": "Granada"
+  },
+  {
+    "officer": "José García",
+    "date": "2024-08-29T00:00:00.000",
+    "amount": 2794.75,
+    "client": "Cliente 730",
+    "product": "Agropecuario",
+    "branch": "Chinandega"
+  },
+  {
+    "officer": "José García",
+    "date": "2024-08-29T00:00:00.000",
+    "amount": 2591.98,
+    "client": "Cliente 910",
+    "product": "Agropecuario",
+    "branch": "Chinandega"
+  },
+  {
+    "officer": "Ana Torres",
+    "date": "2024-08-30T00:00:00.000",
+    "amount": 1259.57,
+    "client": "Cliente 168",
+    "product": "Agropecuario",
+    "branch": "Granada"
+  },
+  {
+    "officer": "Ana Torres",
+    "date": "2024-08-30T00:00:00.000",
+    "amount": 1034.12,
+    "client": "Cliente 708",
+    "product": "Consumo",
+    "branch": "Chinandega"
+  },
+  {
+    "officer": "Luis Méndez",
+    "date": "2024-08-30T00:00:00.000",
+    "amount": 2558.4,
+    "client": "Cliente 287",
+    "product": "Vivienda",
+    "branch": "Granada"
+  },
+  {
+    "officer": "José García",
+    "date": "2024-08-30T00:00:00.000",
+    "amount": 534.59,
+    "client": "Cliente 698",
+    "product": "Microcrédito",
+    "branch": "Chinandega"
+  },
+  {
+    "officer": "Ana Torres",
+    "date": "2024-08-30T00:00:00.000",
+    "amount": 1066.77,
+    "client": "Cliente 502",
+    "product": "Vivienda",
+    "branch": "León"
+  },
+  {
+    "officer": "José García",
+    "date": "2024-08-31T00:00:00.000",
+    "amount": 2973.92,
+    "client": "Cliente 29",
+    "product": "Vivienda",
+    "branch": "Estelí"
+  },
+  {
+    "officer": "Carlos Silva",
+    "date": "2024-08-31T00:00:00.000",
+    "amount": 2458.23,
+    "client": "Cliente 4",
+    "product": "Consumo",
+    "branch": "Managua"
+  },
+  {
+    "officer": "María Pérez",
+    "date": "2024-08-31T00:00:00.000",
+    "amount": 2314.66,
+    "client": "Cliente 127",
+    "product": "Vivienda",
+    "branch": "Estelí"
+  }
+]

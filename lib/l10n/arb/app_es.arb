@@ -1,0 +1,36 @@
+{
+    "@@locale": "es",
+    "counterAppBarTitle": "Contador",
+    "@counterAppBarTitle": {
+        "description": "Texto mostrado en la AppBar de la página del contador"
+    },
+        "chooseTheme": "Elegir tema",
+"chooseLanguage": "Elegir idioma",
+  "indicators": "Indicadores",
+  "placements": "Colocaciones",
+  "delinquency": "Mora",
+  "atRiskPortfolio": "Cartera en riesgo",
+  "inactiveClients": "Clientes inactivos",
+  "portfolioTurnover": "Rotación de cartera",
+  "goalAchievement": "Cumplimiento de metas",
+  "clientGrowth": "Crecimiento de clientes",
+  "averagePlacementPerOfficer": "Colocación promedio por oficial",
+  "workPlan": "Plan de trabajo",
+  "cashTransactions": "Transacciones de caja",
+  "auditResults": "Resultados de arqueos",
+  "portfolioBalancing": "Cuadre de cartera",
+  "workplaceClimate": "Clima laboral",
+  "disbursements": "Desembolsos",
+  "promotions": "Promociones",
+  "settings": "Configuración",
+  "light": "Claro",
+  "dark": "Oscuro",
+  "system": "Sistema",
+  "indicators": "Indicadores",
+  "settingsTooltip": "Ajustes",
+  "errorLoadingMenu": "Error al cargar el menú: {message}",
+  "noData": "Sin datos"
+
+
+
+}

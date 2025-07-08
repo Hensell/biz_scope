@@ -1,0 +1,87 @@
+{
+    "@@locale": "en",
+    "counterAppBarTitle": "Counter",
+    "@counterAppBarTitle": {
+        "description": "Text shown in the AppBar of the Counter Page"
+    },
+      "chooseTheme": "Choose Theme",
+"@chooseTheme": {
+  "description": "Label or title shown when the user is selecting between light or dark mode, or other visual themes."
+},
+
+"chooseLanguage": "Choose Language",
+"@chooseLanguage": {
+  "description": "Label or title shown when the user is selecting the app's language."
+},
+  "indicators": "Indicators",
+  "@indicators": {
+    "description": "Menu label or section title for indicators, referring to key metrics or performance indicators."
+  },
+  "placements": "Placements",
+  "@placements": { "description": "Menu label for placements/loans or credits placed." },
+  "delinquency": "Delinquency",
+  "@delinquency": { "description": "Menu label for overdue accounts or loans." },
+  "atRiskPortfolio": "At-Risk Portfolio",
+  "@atRiskPortfolio": { "description": "Menu label for portfolio at risk." },
+  "inactiveClients": "Inactive Clients",
+  "@inactiveClients": { "description": "Menu label for clients marked as inactive." },
+  "portfolioTurnover": "Portfolio Turnover",
+  "@portfolioTurnover": { "description": "Menu label for the portfolio turnover metric." },
+  "goalAchievement": "Goal Achievement",
+  "@goalAchievement": { "description": "Menu label for goal achievement or compliance." },
+  "clientGrowth": "Client Growth",
+  "@clientGrowth": { "description": "Menu label for metric showing growth in clients." },
+  "averagePlacementPerOfficer": "Average Placement per Officer",
+  "@averagePlacementPerOfficer": { "description": "Menu label for average placement metric per officer." },
+  "workPlan": "Work Plan",
+  "@workPlan": { "description": "Menu label for work plan." },
+  "cashTransactions": "Cash Transactions",
+  "@cashTransactions": { "description": "Menu label for cash transactions." },
+  "auditResults": "Audit Results",
+  "@auditResults": { "description": "Menu label for audit results." },
+  "portfolioBalancing": "Portfolio Balancing",
+  "@portfolioBalancing": { "description": "Menu label for balancing portfolio." },
+  "workplaceClimate": "Workplace Climate",
+  "@workplaceClimate": { "description": "Menu label for workplace climate." },
+  "disbursements": "Disbursements",
+  "@disbursements": { "description": "Menu label for disbursements." },
+  "promotions": "Promotions",
+  "@promotions": { "description": "Menu label for promotions." },
+  "settings": "Settings",
+  "@settings": {
+  "description": "Main section or page for app configuration options"
+  },
+  "light": "Light",
+"@light": {
+  "description": "Label for the light theme option"
+},
+"dark": "Dark",
+"@dark": {
+  "description": "Label for the dark theme option"
+},
+"system": "System",
+"@system": {
+  "description": "Label for the system default theme option"
+},
+"indicators": "Indicators",
+"@indicators": {
+  "description": "App bar title for main indicators screen"
+},
+"settingsTooltip": "Settings",
+"@settingsTooltip": {
+  "description": "Tooltip for the settings icon button in app bar"
+},
+"errorLoadingMenu": "Error loading menu: {message}",
+"@errorLoadingMenu": {
+  "description": "Error message shown when the menu fails to load. Variable {message} is the error details."
+},
+"noData": "No data",
+"@noData": {
+  "description": "Displayed when there is no menu data to show"
+}
+
+
+
+
+
+}
