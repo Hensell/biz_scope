@@ -29,7 +29,33 @@
   "indicators": "Indicadores",
   "settingsTooltip": "Ajustes",
   "errorLoadingMenu": "Error al cargar el menú: {message}",
-  "noData": "Sin datos"
+  "noData": "Sin datos",
+  "placements": "Colocaciones",
+"allBranches": "Todas",
+"filterByBranch": "Filtrar por sucursal",
+"branch": "Sucursal",
+"groupBy": "Agrupar por:",
+"day": "Día",
+"week": "Semana",
+"month": "Mes",
+"year": "Año",
+"officer": "Oficial",
+"weekShort": "S",
+"lastDay": "Último día",
+"lastWeek": "Última semana",
+"lastMonth": "Último mes",
+"lastYear": "Último año",
+"noPlacementsYet": "Aún no hay colocaciones",
+"noData": "Sin datos",
+"error": "Error: {message}",
+"placementDetail": "Detalle de colocación",
+"totalAmount": "Monto total",
+"date": "Fecha",
+"amountAsc": "Monto ↑",
+"amountDesc": "Monto ↓",
+"amount": "Monto",
+"selectBranch": "Seleccionar sucursal"
+
 
 
 

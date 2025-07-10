@@ -6,7 +6,7 @@ part 'settings_state.dart';
 class SettingsCubit extends HydratedCubit<SettingsState> {
   SettingsCubit()
     : super(
-        const SettingsState(themeMode: ThemeMode.system, locale: Locale('es')),
+        const SettingsState(themeMode: ThemeMode.light, locale: Locale('es')),
       );
 
   void changeTheme(ThemeMode mode) {

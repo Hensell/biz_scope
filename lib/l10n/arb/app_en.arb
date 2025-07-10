@@ -78,7 +78,108 @@
 "noData": "No data",
 "@noData": {
   "description": "Displayed when there is no menu data to show"
+},
+"placements": "Placements",
+"@placements": {
+  "description": "Title or section for placements report"
+},
+"allBranches": "All",
+"@allBranches": {
+  "description": "Label for filtering by all branches"
+},
+"filterByBranch": "Filter by branch",
+"@filterByBranch": {
+  "description": "Label for a dropdown or filter by branch"
+},
+"branch": "Branch",
+"@branch": {
+  "description": "Label for a single branch"
+},
+"groupBy": "Group by:",
+"@groupBy": {
+  "description": "Label for selecting the grouping option"
+},
+"day": "Day",
+"@day": {
+  "description": "Label for grouping by day"
+},
+"week": "Week",
+"@week": {
+  "description": "Label for grouping by week"
+},
+"month": "Month",
+"@month": {
+  "description": "Label for grouping by month"
+},
+"year": "Year",
+"@year": {
+  "description": "Label for grouping by year"
+},
+"officer": "Officer",
+"@officer": {
+  "description": "Label for officer filter or column"
+},
+"weekShort": "W",
+"@weekShort": {
+  "description": "Short label for week"
+},
+"lastDay": "Last Day",
+"@lastDay": {
+  "description": "Label for the previous day"
+},
+"lastWeek": "Last Week",
+"@lastWeek": {
+  "description": "Label for the previous week"
+},
+"lastMonth": "Last Month",
+"@lastMonth": {
+  "description": "Label for the previous month"
+},
+"lastYear": "Last Year",
+"@lastYear": {
+  "description": "Label for the previous year"
+},
+"noPlacementsYet": "No placements yet",
+"@noPlacementsYet": {
+  "description": "Shown when there are no placements to display"
+},
+"noData": "No data",
+"@noData": {
+  "description": "Displayed when there is no data available"
+},
+"error": "Error: {message}",
+"@error": {
+  "description": "Displayed when there is an error; {message} is the error details"
+},
+"placementDetail": "Placement details",
+"@placementDetail": {
+  "description": "Section title or label for placement details"
+},
+"totalAmount": "Total amount",
+"@totalAmount": {
+  "description": "Label for the total sum of amounts"
+},
+"date": "Date",
+"@date": {
+  "description": "Label for date field or column"
+},
+"amountAsc": "Amount ↑",
+"@amountAsc": {
+  "description": "Label for sorting by amount ascending"
+},
+"amountDesc": "Amount ↓",
+"@amountDesc": {
+  "description": "Label for sorting by amount descending"
+},
+"amount": "Amount",
+"@amount": {
+  "description": "Label for an amount value"
+},
+"selectBranch": "Select branch",
+"@selectBranch": {
+  "description": "Label for selecting a branch from a dropdown or list"
 }
+
 
 
 
