@@ -1,16 +1,4 @@
 class ClassificationCriteria {
-  final bool byPortfolio;
-  final bool byClients;
-  final bool byLocation;
-  final String detail;
-
-  ClassificationCriteria({
-    required this.byPortfolio,
-    required this.byClients,
-    required this.byLocation,
-    required this.detail,
-  });
-
   factory ClassificationCriteria.fromJson(Map<String, dynamic> json) {
     bool parseBool(dynamic v) =>
         v is bool ? v : (v is String ? v.toLowerCase() == 'true' : false);
@@ -24,16 +12,20 @@ class ClassificationCriteria {
       detail: parseString(json['detalle']),
     );
   }
+
+  ClassificationCriteria({
+    required this.byPortfolio,
+    required this.byClients,
+    required this.byLocation,
+    required this.detail,
+  });
+  final bool byPortfolio;
+  final bool byClients;
+  final bool byLocation;
+  final String detail;
 }
 
 class BranchSummary {
-  final String name;
-  final double currentPortfolio;
-  final int activeClients;
-  final int employees;
-  final String location;
-  final String category;
-
   BranchSummary({
     required this.name,
     required this.currentPortfolio,
@@ -55,16 +47,15 @@ class BranchSummary {
       category: parseString(json['categoria']),
     );
   }
+  final String name;
+  final double currentPortfolio;
+  final int activeClients;
+  final int employees;
+  final String location;
+  final String category;
 }
 
 class ProjectionSummary {
-  final double currentPortfolio;
-  final double projectedPortfolio;
-  final double delta;
-  final double discountRate;
-  final double presentValue;
-  final double annualValue;
-
   ProjectionSummary({
     required this.currentPortfolio,
     required this.projectedPortfolio,
@@ -85,15 +76,15 @@ class ProjectionSummary {
       annualValue: (json['valorAnual'] as num?)?.toDouble() ?? 0.0,
     );
   }
+  final double currentPortfolio;
+  final double projectedPortfolio;
+  final double delta;
+  final double discountRate;
+  final double presentValue;
+  final double annualValue;
 }
 
 class ProjectionCategory {
-  final String type;
-  final int branches;
-  final int newClients;
-  final double projectedPlacement;
-  final double portfolioBalance;
-
   ProjectionCategory({
     required this.type,
     required this.branches,
@@ -114,14 +105,14 @@ class ProjectionCategory {
       portfolioBalance: (json['saldoCartera'] as num?)?.toDouble() ?? 0.0,
     );
   }
+  final String type;
+  final int branches;
+  final int newClients;
+  final double projectedPlacement;
+  final double portfolioBalance;
 }
 
 class IncomeProjectionReport {
-  final ClassificationCriteria criteria;
-  final List<BranchSummary> branches;
-  final ProjectionSummary projectionSummary;
-  final List<ProjectionCategory> projectionCategories;
-
   IncomeProjectionReport({
     required this.criteria,
     required this.branches,
@@ -153,4 +144,8 @@ class IncomeProjectionReport {
           .toList(),
     );
   }
+  final ClassificationCriteria criteria;
+  final List<BranchSummary> branches;
+  final ProjectionSummary projectionSummary;
+  final List<ProjectionCategory> projectionCategories;
 }
