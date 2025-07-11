@@ -29,60 +29,52 @@ class MenuSection extends StatelessWidget {
           final extraOptions = options.skip(2).toList();
 
           return Center(
-            child: Container(
-              padding: const EdgeInsets.all(35),
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(15),
-                color: Colors.black.withValues(alpha: 0.1),
-              ),
-              child: Column(
-                mainAxisSize: MainAxisSize.min,
-                children: [
-                  Wrap(
-                    alignment: WrapAlignment.center,
-                    spacing: 10,
-                    runSpacing: 16,
-                    children: [
-                      for (final item in mainOptions)
-                        MenuButton(
-                          label: context.l10n.getLabel(item.label),
-                          icon: Icon(
-                            iconFromString(item.icon),
-                            size: 44,
-                            color: colorScheme.primary,
-                          ),
-                          onTap: () => context.go(item.route),
+            child: Column(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                Wrap(
+                  alignment: WrapAlignment.center,
+                  spacing: 10,
+                  runSpacing: 16,
+                  children: [
+                    for (final item in mainOptions)
+                      MenuButton(
+                        label: context.l10n.getLabel(item.label),
+                        icon: Icon(
+                          iconFromString(item.icon),
+                          size: 44,
+                          color: colorScheme.primary,
                         ),
-                    ],
-                  ),
-                  if (extraOptions.isNotEmpty) ...[
-                    const SizedBox(height: 14),
-                    ElevatedButton.icon(
-                      style: ElevatedButton.styleFrom(
-                        backgroundColor: colorScheme.primary,
-                        foregroundColor: colorScheme.onPrimary,
-                        shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(12),
-                        ),
-                        elevation: 2,
-                        padding: const EdgeInsets.symmetric(
-                          horizontal: 16,
-                          vertical: 10,
-                        ),
+                        onTap: () => context.go(item.route),
                       ),
-                      icon: const Icon(Icons.apps_rounded, size: 20),
-                      label: const Text("Más opciones"),
-                      onPressed: () => Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                          builder: (_) =>
-                              ExtraMenuOptions(options: extraOptions),
-                        ),
+                  ],
+                ),
+                if (extraOptions.isNotEmpty) ...[
+                  const SizedBox(height: 14),
+                  ElevatedButton.icon(
+                    style: ElevatedButton.styleFrom(
+                      backgroundColor: colorScheme.primary,
+                      foregroundColor: colorScheme.onPrimary,
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(12),
+                      ),
+                      elevation: 2,
+                      padding: const EdgeInsets.symmetric(
+                        horizontal: 16,
+                        vertical: 10,
                       ),
                     ),
-                  ],
+                    icon: const Icon(Icons.apps_rounded, size: 20),
+                    label: const Text("Más opciones"),
+                    onPressed: () => Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (_) => ExtraMenuOptions(options: extraOptions),
+                      ),
+                    ),
+                  ),
                 ],
-              ),
+              ],
             ),
           );
         }
