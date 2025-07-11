@@ -47,13 +47,12 @@ class NewsCarousel extends StatelessWidget {
     return CarouselSlider.builder(
       itemCount: newsItems.length,
       options: CarouselOptions(
-        height: 230,
+        height: 250,
         enlargeCenterPage: true,
         viewportFraction: 0.87,
         autoPlay: true,
         autoPlayInterval: const Duration(seconds: 5),
         scrollPhysics: const BouncingScrollPhysics(),
-        pauseAutoPlayOnTouch: true,
         enlargeStrategy: CenterPageEnlargeStrategy.height,
       ),
       itemBuilder: (context, index, realIdx) {

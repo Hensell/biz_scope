@@ -1,3 +1,4 @@
+import 'package:biz_scope/features/chat/presentation/utils/show_chat_modal.dart';
 import 'package:biz_scope/features/home/presentation/utils/icon_mapper.dart';
 import 'package:biz_scope/features/home/presentation/utils/menu_l10n_extension.dart';
 import 'package:biz_scope/features/home/presentation/widgets/menu_button.dart';
@@ -13,6 +14,12 @@ class ExtraMenuOptions extends StatelessWidget {
     final colorScheme = Theme.of(context).colorScheme;
 
     return Scaffold(
+      floatingActionButton: IconButton(
+        onPressed: () => showChatModal(context),
+        icon: const Icon(Icons.smart_toy_outlined),
+        tooltip: 'Chat IA',
+        splashRadius: 24,
+      ),
       appBar: AppBar(
         title: const Text("Otras opciones"),
         centerTitle: true,

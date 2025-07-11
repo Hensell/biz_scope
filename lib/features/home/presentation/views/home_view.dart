@@ -22,12 +22,12 @@ class HomeView extends StatelessWidget {
       appBar: AppBar(
         leading: const SizedBox(width: 48),
         centerTitle: true,
-        toolbarHeight: 88, // Más alto de lo normal
+        toolbarHeight: 88,
         title: const Column(
           mainAxisSize: MainAxisSize.min,
           children: [
             Text(
-              'Grupo innovaton',
+              'Innovaton',
               style: TextStyle(
                 fontWeight: FontWeight.w700,
                 fontSize: 15,
@@ -67,16 +67,35 @@ class HomeView extends StatelessWidget {
         elevation: 0,
         surfaceTintColor: Colors.transparent,
       ),
-
       body: Center(
-        child: ListView(
-          padding: const EdgeInsets.symmetric(vertical: 32, horizontal: 14),
-          children: const [
-            NewsCarousel(), // Modularizado
-            SizedBox(height: 36),
-            MenuSection(), // Modularizado
-            SizedBox(height: 16),
-          ],
+        child: ConstrainedBox(
+          constraints: BoxConstraints(maxWidth: 1024),
+          child: Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 15),
+            child: LayoutBuilder(
+              builder: (context, constraints) {
+                // Si el ancho es mayor a 700px (puedes ajustar este valor), usa Row
+                final isWide = constraints.maxWidth > 700;
+                if (isWide) {
+                  return Row(
+                    children: const [
+                      Expanded(child: NewsCarousel()),
+
+                      Expanded(child: MenuSection()),
+                    ],
+                  );
+                } else {
+                  return Column(
+                    children: [
+                      NewsCarousel(),
+
+                      MenuSection(),
+                    ],
+                  );
+                }
+              },
+            ),
+          ),
         ),
       ),
     );
