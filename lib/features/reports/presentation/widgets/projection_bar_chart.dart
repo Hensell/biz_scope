@@ -1,6 +1,7 @@
 import 'package:biz_scope/features/reports/data/models/income_projection_report.dart';
 import 'package:fl_chart/fl_chart.dart';
 import 'package:flutter/material.dart';
+import 'package:intl/intl.dart';
 
 class ProjectionBarChart extends StatelessWidget {
   final List<ProjectionCategory> categories;
@@ -9,8 +10,21 @@ class ProjectionBarChart extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final colorScheme = Theme.of(context).colorScheme;
+    final theme = Theme.of(context);
+    final colorScheme = theme.colorScheme;
+    final moneyFormat = NumberFormat.currency(
+      locale: 'en_US',
+      symbol: r'$',
+      decimalDigits: 0,
+    );
     final labels = categories.map((e) => e.type).toList();
+
+    final maxProjected = categories
+        .map((c) => c.projectedPlacement)
+        .fold<double>(0, (prev, elem) => elem > prev ? elem : prev);
+
+    final double maxY =
+        maxProjected * 1.38; // infla maxY, dale mucho aire arriba
 
     final barGroups = categories.asMap().entries.map((entry) {
       final index = entry.key;
@@ -30,21 +44,20 @@ class ProjectionBarChart extends StatelessWidget {
               begin: Alignment.bottomCenter,
               end: Alignment.topCenter,
             ),
+            backDrawRodData: BackgroundBarChartRodData(
+              show: true,
+              toY: maxY, // igual que el maxY del chart!
+              color: colorScheme.surface.withOpacity(0.11),
+            ),
           ),
         ],
       );
     }).toList();
 
-    final double maxY =
-        categories
-            .map((c) => c.projectedPlacement)
-            .fold<double>(0, (prev, elem) => elem > prev ? elem : prev) *
-        1.2;
-
     return SizedBox(
-      height: 300, // más alto para que entren las letras
+      height: 360, // ¡más alto!
       child: Padding(
-        padding: const EdgeInsets.only(top: 80),
+        padding: const EdgeInsets.only(top: 60), // más padding arriba
         child: SingleChildScrollView(
           scrollDirection: Axis.horizontal,
           child: SizedBox(
@@ -62,7 +75,7 @@ class ProjectionBarChart extends StatelessWidget {
                 ),
                 gridData: FlGridData(
                   show: true,
-                  horizontalInterval: maxY / 5,
+                  horizontalInterval: maxProjected / 5,
                   getDrawingHorizontalLine: (value) => FlLine(
                     color: colorScheme.secondary.withOpacity(0.13),
                     strokeWidth: 1,
@@ -73,16 +86,13 @@ class ProjectionBarChart extends StatelessWidget {
                     sideTitles: SideTitles(
                       showTitles: true,
                       reservedSize: 80,
-                      interval: maxY / 5,
+                      interval: maxProjected / 5,
                       getTitlesWidget: (value, meta) => Padding(
-                        padding: EdgeInsets.only(
-                          top: MediaQuery.of(context).size.width < 700 ? 25 : 0,
-                        ),
+                        padding: const EdgeInsets.only(top: 8),
                         child: Text(
-                          '\$${value.toStringAsFixed(0)}',
-                          style: const TextStyle(
-                            fontSize: 13,
-                            fontWeight: FontWeight.w600,
+                          moneyFormat.format(value),
+                          style: theme.textTheme.labelSmall?.copyWith(
+                            fontSize: 11,
                           ),
                         ),
                       ),
@@ -91,14 +101,11 @@ class ProjectionBarChart extends StatelessWidget {
                   bottomTitles: AxisTitles(
                     sideTitles: SideTitles(
                       showTitles: true,
-                      reservedSize: 54, // MÁS ESPACIO ABAJO
+                      reservedSize: 54,
                       getTitlesWidget: (double value, _) {
                         final index = value.toInt();
                         return Padding(
-                          padding: const EdgeInsets.only(
-                            top: 22.0,
-                            bottom: 2.0,
-                          ), // MÁS ESPACIO ARRIBA Y ABAJO
+                          padding: const EdgeInsets.only(top: 18.0),
                           child: Text(
                             index >= 0 && index < labels.length
                                 ? labels[index]
@@ -109,24 +116,45 @@ class ProjectionBarChart extends StatelessWidget {
                             ),
                           ),
                         );
-                        // Si quieres girar la etiqueta:
-                        // return Transform.rotate(
-                        //   angle: -0.35, // Rota unos -20 grados aprox
-                        //   child: Text(...),
-                        // );
                       },
                     ),
                   ),
-                  topTitles: AxisTitles(
-                    sideTitles: SideTitles(showTitles: false),
-                  ),
-                  rightTitles: AxisTitles(
-                    sideTitles: SideTitles(showTitles: false),
-                  ),
+                  topTitles: const AxisTitles(),
+                  rightTitles: const AxisTitles(),
                 ),
                 maxY: maxY,
                 minY: 0,
-                barTouchData: BarTouchData(enabled: true),
+                barTouchData: BarTouchData(
+                  enabled: true,
+                  touchTooltipData: BarTouchTooltipData(
+                    tooltipMargin: 24,
+                    tooltipPadding: const EdgeInsets.symmetric(
+                      vertical: 8,
+                      horizontal: 14,
+                    ),
+                    tooltipBorder: BorderSide(
+                      color: colorScheme.primary.withOpacity(0.18),
+                      width: 1.1,
+                    ),
+                    getTooltipItem: (group, groupIndex, rod, rodIndex) {
+                      return BarTooltipItem(
+                        moneyFormat.format(rod.toY),
+                        const TextStyle(
+                          color: Colors.white, // texto SIEMPRE blanco
+                          fontWeight: FontWeight.bold,
+                          fontSize: 15,
+                          shadows: [
+                            Shadow(
+                              color: Colors.black38,
+                              blurRadius: 4,
+                              offset: Offset(0, 2),
+                            ),
+                          ],
+                        ),
+                      );
+                    },
+                  ),
+                ),
               ),
             ),
           ),
