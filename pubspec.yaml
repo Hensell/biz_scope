@@ -39,5 +39,5 @@ flutter:
   uses-material-design: true
   assets:
     - assets/menu_options.json
-    - assets/data/income_projection.json
-    - assets/data/placements.json
+    - assets/data_json/income_projection.json
+    - assets/data_json/placements.json

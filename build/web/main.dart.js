@@ -43169,7 +43169,7 @@ while(true)switch(s){case 0:p=A
 o=t.P
 n=B.b_
 s=3
-return A.T($.yv().Is("assets/data/income_projection.json"),$async$m5)
+return A.T($.yv().Is("assets/data_json/income_projection.json"),$async$m5)
 case 3:q=p.aXS(o.a(n.oA(b,null)))
 s=1
 break
@@ -43182,7 +43182,7 @@ while(true)switch(s){case 0:o=J
 n=t.j
 m=B.b_
 s=3
-return A.T($.yv().Is("assets/data/placements.json"),$async$m4)
+return A.T($.yv().Is("assets/data_json/placements.json"),$async$m4)
 case 3:p=o.j9(n.a(m.oA(b,null)),new A.alc(),t.Jt)
 p=A.W(p,p.$ti.h("ag.E"))
 q=p
