@@ -1,3 +1,4 @@
+import 'package:biz_scope/features/chat/presentation/utils/show_chat_modal.dart';
 import 'package:biz_scope/features/home/presentation/widgets/menu_section.dart';
 import 'package:biz_scope/features/home/presentation/widgets/news_carousel.dart';
 import 'package:flutter/material.dart';
@@ -20,6 +21,11 @@ class HomeView extends StatelessWidget {
           style: TextStyle(fontWeight: FontWeight.w700, letterSpacing: 0.2),
         ),
         actions: [
+          IconButton(
+            onPressed: () => showChatModal(context),
+            icon: Icon(Icons.search),
+          ),
+
           Padding(
             padding: const EdgeInsets.only(right: 12),
             child: IconButton(
