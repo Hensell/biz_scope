@@ -3,7 +3,7 @@ import 'package:biz_scope/features/reports/data/models/income_projection_report.
 import 'package:flutter/services.dart' show rootBundle;
 
 class IncomeProjectionReportDataSource {
-  static const String _jsonPath = 'assets/data/income_projection_report.json';
+  static const String _jsonPath = 'assets/data/income_projection.json';
 
   Future<IncomeProjectionReport> loadReport() async {
     final data = await rootBundle.loadString(_jsonPath);
