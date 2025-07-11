@@ -21,9 +21,21 @@ class IncomeProjectionReportView extends StatelessWidget {
         splashRadius: 24,
       ),
       appBar: AppBar(
-        title: Text(l10n.incomeProjectionReportTitle),
+        title: Text(
+          l10n.incomeProjectionReportTitle,
+          style: const TextStyle(
+            fontSize: 14, // más pequeño que el default
+            fontWeight: FontWeight.w700,
+            letterSpacing: 0.2,
+          ),
+          maxLines: 2, // permite dos líneas si el texto es largo
+          overflow: TextOverflow.ellipsis,
+          textAlign: TextAlign.center,
+        ),
         centerTitle: true,
+        toolbarHeight: 54, // más bajito si quieres el AppBar más compacto
       ),
+
       body:
           BlocBuilder<IncomeProjectionReportCubit, IncomeProjectionReportState>(
             builder: (context, state) {
