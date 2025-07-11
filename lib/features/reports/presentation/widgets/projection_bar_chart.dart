@@ -42,84 +42,92 @@ class ProjectionBarChart extends StatelessWidget {
         1.2;
 
     return SizedBox(
-      height: 270, // más alto para que entren las letras
-      child: SingleChildScrollView(
-        scrollDirection: Axis.horizontal,
-        child: SizedBox(
-          width: (categories.length * 140).toDouble().clamp(320, 900),
-          child: BarChart(
-            BarChartData(
-              barGroups: barGroups,
-              groupsSpace: 32,
-              borderData: FlBorderData(
-                show: true,
-                border: Border.all(
-                  color: colorScheme.primary.withOpacity(0.14),
-                  width: 1,
+      height: 300, // más alto para que entren las letras
+      child: Padding(
+        padding: const EdgeInsets.only(top: 80),
+        child: SingleChildScrollView(
+          scrollDirection: Axis.horizontal,
+          child: SizedBox(
+            width: (categories.length * 140).toDouble().clamp(320, 900),
+            child: BarChart(
+              BarChartData(
+                barGroups: barGroups,
+                groupsSpace: 32,
+                borderData: FlBorderData(
+                  show: true,
+                  border: Border.all(
+                    color: colorScheme.primary.withOpacity(0.14),
+                    width: 1,
+                  ),
                 ),
-              ),
-              gridData: FlGridData(
-                show: true,
-                horizontalInterval: maxY / 5,
-                getDrawingHorizontalLine: (value) => FlLine(
-                  color: colorScheme.secondary.withOpacity(0.13),
-                  strokeWidth: 1,
+                gridData: FlGridData(
+                  show: true,
+                  horizontalInterval: maxY / 5,
+                  getDrawingHorizontalLine: (value) => FlLine(
+                    color: colorScheme.secondary.withOpacity(0.13),
+                    strokeWidth: 1,
+                  ),
                 ),
-              ),
-              titlesData: FlTitlesData(
-                leftTitles: AxisTitles(
-                  sideTitles: SideTitles(
-                    showTitles: true,
-                    reservedSize: 80,
-                    interval: maxY / 5,
-                    getTitlesWidget: (value, meta) => Text(
-                      '\$${value.toStringAsFixed(0)}',
-                      style: const TextStyle(
-                        fontSize: 13,
-                        fontWeight: FontWeight.w600,
+                titlesData: FlTitlesData(
+                  leftTitles: AxisTitles(
+                    sideTitles: SideTitles(
+                      showTitles: true,
+                      reservedSize: 80,
+                      interval: maxY / 5,
+                      getTitlesWidget: (value, meta) => Padding(
+                        padding: EdgeInsets.only(
+                          top: MediaQuery.of(context).size.width < 700 ? 25 : 0,
+                        ),
+                        child: Text(
+                          '\$${value.toStringAsFixed(0)}',
+                          style: const TextStyle(
+                            fontSize: 13,
+                            fontWeight: FontWeight.w600,
+                          ),
+                        ),
                       ),
                     ),
                   ),
-                ),
-                bottomTitles: AxisTitles(
-                  sideTitles: SideTitles(
-                    showTitles: true,
-                    reservedSize: 54, // MÁS ESPACIO ABAJO
-                    getTitlesWidget: (double value, _) {
-                      final index = value.toInt();
-                      return Padding(
-                        padding: const EdgeInsets.only(
-                          top: 22.0,
-                          bottom: 2.0,
-                        ), // MÁS ESPACIO ARRIBA Y ABAJO
-                        child: Text(
-                          index >= 0 && index < labels.length
-                              ? labels[index]
-                              : '',
-                          style: const TextStyle(
-                            fontWeight: FontWeight.w700,
-                            fontSize: 16,
+                  bottomTitles: AxisTitles(
+                    sideTitles: SideTitles(
+                      showTitles: true,
+                      reservedSize: 54, // MÁS ESPACIO ABAJO
+                      getTitlesWidget: (double value, _) {
+                        final index = value.toInt();
+                        return Padding(
+                          padding: const EdgeInsets.only(
+                            top: 22.0,
+                            bottom: 2.0,
+                          ), // MÁS ESPACIO ARRIBA Y ABAJO
+                          child: Text(
+                            index >= 0 && index < labels.length
+                                ? labels[index]
+                                : '',
+                            style: const TextStyle(
+                              fontWeight: FontWeight.w700,
+                              fontSize: 16,
+                            ),
                           ),
-                        ),
-                      );
-                      // Si quieres girar la etiqueta:
-                      // return Transform.rotate(
-                      //   angle: -0.35, // Rota unos -20 grados aprox
-                      //   child: Text(...),
-                      // );
-                    },
+                        );
+                        // Si quieres girar la etiqueta:
+                        // return Transform.rotate(
+                        //   angle: -0.35, // Rota unos -20 grados aprox
+                        //   child: Text(...),
+                        // );
+                      },
+                    ),
+                  ),
+                  topTitles: AxisTitles(
+                    sideTitles: SideTitles(showTitles: false),
+                  ),
+                  rightTitles: AxisTitles(
+                    sideTitles: SideTitles(showTitles: false),
                   ),
                 ),
-                topTitles: AxisTitles(
-                  sideTitles: SideTitles(showTitles: false),
-                ),
-                rightTitles: AxisTitles(
-                  sideTitles: SideTitles(showTitles: false),
-                ),
+                maxY: maxY,
+                minY: 0,
+                barTouchData: BarTouchData(enabled: true),
               ),
-              maxY: maxY,
-              minY: 0,
-              barTouchData: BarTouchData(enabled: true),
             ),
           ),
         ),

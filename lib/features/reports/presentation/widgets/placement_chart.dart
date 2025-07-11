@@ -52,7 +52,7 @@ class PlacementChart extends StatelessWidget {
     final chartWidth = (labels.length * 60).clamp(400, 2000).toDouble();
 
     return Padding(
-      padding: const EdgeInsets.symmetric(vertical: 12),
+      padding: const EdgeInsets.symmetric(vertical: 48),
       child: Center(
         child: SingleChildScrollView(
           scrollDirection: Axis.horizontal,

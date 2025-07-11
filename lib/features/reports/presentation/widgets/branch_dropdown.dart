@@ -18,7 +18,7 @@ class BranchDropdown extends StatelessWidget {
     final l10n = AppLocalizations.of(context);
     return Padding(
       padding: const EdgeInsets.only(bottom: 12, top: 25),
-      child: Row(
+      child: Column(
         children: [
           Text(
             '${l10n.branch}: ',
