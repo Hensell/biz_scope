@@ -90,7 +90,7 @@ class _ChatModalState extends State<ChatModal> {
                                 ),
                               ),
                               Text(
-                                "by Grupo Innovaton",
+                                "by Grupo Desa 3",
                                 style: textTheme.labelSmall?.copyWith(
                                   color: colorScheme.onPrimary.withOpacity(
                                     0.85,
