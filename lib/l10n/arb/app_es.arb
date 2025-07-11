@@ -8,7 +8,7 @@
 "chooseLanguage": "Elegir idioma",
   "indicators": "Indicadores",
   "placements": "Colocaciones",
-  "delinquency": "Mora",
+  "delinquency": "Proyecciones",
   "atRiskPortfolio": "Cartera en riesgo",
   "inactiveClients": "Clientes inactivos",
   "portfolioTurnover": "Rotación de cartera",
@@ -54,7 +54,20 @@
 "amountAsc": "Monto ↑",
 "amountDesc": "Monto ↓",
 "amount": "Monto",
-"selectBranch": "Seleccionar sucursal"
+"selectBranch": "Seleccionar sucursal","incomeProjectionReportTitle": "Reporte de Proyección de Ingresos",
+"incomeProjectionReportError": "Error: {message}",
+"incomeProjectionSummary": "Resumen",
+"incomeProjectionBranchesByCategory": "Sucursales por Categoría",
+"incomeProjectionBranchesList": "Lista de Sucursales",
+"incomeProjectionBranchCategory": "Categoría: {category}",
+"incomeProjectionBranchPortfolio": "Cartera:  {portfolio}",
+"incomeProjectionCurrentPortfolio": "Cartera Actual",
+"incomeProjectionProjectedPortfolio": "Cartera Proyectada",
+"incomeProjectionDelta": "Delta",
+"incomeProjectionDiscountRate": "Tasa de Descuento",
+"incomeProjectionPresentValue": "Valor Presente",
+"incomeProjectionAnnualValue": "Valor Anual"
+
 
 
 

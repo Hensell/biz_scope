@@ -13,29 +13,52 @@ class HomeView extends StatelessWidget {
 
     return Scaffold(
       backgroundColor: colorScheme.surface,
+      floatingActionButton: IconButton(
+        onPressed: () => showChatModal(context),
+        icon: const Icon(Icons.smart_toy_outlined),
+        tooltip: 'Chat IA',
+        splashRadius: 24,
+      ),
       appBar: AppBar(
         leading: const SizedBox(width: 48),
         centerTitle: true,
-        title: const Text(
-          'Grupo innovaton DESA 3',
-          style: TextStyle(fontWeight: FontWeight.w700, letterSpacing: 0.2),
+        toolbarHeight: 88, // Más alto de lo normal
+        title: const Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            Text(
+              'Grupo innovaton',
+              style: TextStyle(
+                fontWeight: FontWeight.w700,
+                fontSize: 15,
+                letterSpacing: 0.2,
+              ),
+              maxLines: 1,
+              overflow: TextOverflow.ellipsis,
+            ),
+            SizedBox(height: 2),
+            Text(
+              'DESA 3',
+              style: TextStyle(
+                fontWeight: FontWeight.w400,
+                fontSize: 12,
+                letterSpacing: 0.1,
+              ),
+              maxLines: 1,
+              overflow: TextOverflow.ellipsis,
+            ),
+          ],
         ),
         actions: [
-          IconButton(
-            onPressed: () => showChatModal(context),
-            icon: Icon(Icons.search),
-          ),
-
           Padding(
             padding: const EdgeInsets.only(right: 12),
             child: IconButton(
               icon: Icon(
                 Icons.settings,
-                color: colorScheme.primary,
+                color: Theme.of(context).colorScheme.primary,
               ),
               tooltip: 'Ajustes',
               onPressed: () => context.go('/settings'),
-
               splashRadius: 24,
             ),
           ),
@@ -44,6 +67,7 @@ class HomeView extends StatelessWidget {
         elevation: 0,
         surfaceTintColor: Colors.transparent,
       ),
+
       body: Center(
         child: ListView(
           padding: const EdgeInsets.symmetric(vertical: 32, horizontal: 14),

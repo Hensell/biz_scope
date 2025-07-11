@@ -1,10 +1,10 @@
+import 'package:biz_scope/features/chat/presentation/utils/show_chat_modal.dart';
 import 'package:biz_scope/features/reports/presentation/cubit/placement_cubit.dart';
 import 'package:biz_scope/features/reports/presentation/utils/placement_utils.dart';
 import 'package:biz_scope/features/reports/presentation/widgets/branch_dropdown.dart';
 import 'package:biz_scope/features/reports/presentation/widgets/group_by_section.dart';
 import 'package:biz_scope/features/reports/presentation/widgets/order_section.dart';
 import 'package:biz_scope/features/reports/presentation/widgets/placement_chart.dart';
-import 'package:biz_scope/features/reports/presentation/widgets/placement_detail_table.dart';
 import 'package:biz_scope/features/reports/presentation/widgets/placement_kpi_cards.dart';
 import 'package:biz_scope/l10n/gen/app_localizations.dart';
 import 'package:flutter/material.dart';
@@ -28,6 +28,12 @@ class _PlacementViewState extends State<PlacementView> {
       appBar: AppBar(
         title: Text(l10n.placements),
         centerTitle: true,
+      ),
+      floatingActionButton: IconButton(
+        onPressed: () => showChatModal(context),
+        icon: const Icon(Icons.smart_toy_outlined),
+        tooltip: 'Chat IA',
+        splashRadius: 24,
       ),
       body: BlocBuilder<PlacementCubit, PlacementState>(
         builder: (context, state) {

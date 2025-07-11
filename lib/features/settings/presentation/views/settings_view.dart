@@ -1,4 +1,5 @@
 import 'dart:ui';
+import 'package:biz_scope/features/chat/presentation/utils/show_chat_modal.dart';
 import 'package:biz_scope/features/settings/presentation/cubit/settings_cubit.dart';
 import 'package:biz_scope/l10n/gen/app_localizations.dart';
 import 'package:flutter/material.dart';
@@ -17,6 +18,12 @@ class SettingsView extends StatelessWidget {
 
     return Scaffold(
       extendBodyBehindAppBar: true,
+      floatingActionButton: IconButton(
+        onPressed: () => showChatModal(context),
+        icon: const Icon(Icons.smart_toy_outlined),
+        tooltip: 'Chat IA',
+        splashRadius: 24,
+      ),
       appBar: AppBar(
         title: Text(AppLocalizations.of(context).settings),
         backgroundColor: Colors.transparent,

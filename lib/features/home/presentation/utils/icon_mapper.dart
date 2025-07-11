@@ -5,7 +5,7 @@ IconData iconFromString(String icon) {
     case 'show_chart':
       return Icons.show_chart;
     case 'trending_down':
-      return Icons.trending_down;
+      return Icons.trending_up;
     case 'warning':
       return Icons.warning;
     case 'person_off':

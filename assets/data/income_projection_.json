@@ -1,0 +1,67 @@
+{
+  "criteriosClasificacion": {
+    "porCartera": true,
+    "porClientes": true,
+    "porUbicacion": false,
+    "detalle": "Sucursales Tipo A tienen >300k en cartera y >500 clientes activos. Tipo B entre 150k y 300k. Tipo C <150k."
+  },
+  "sucursales": [
+    {
+      "nombre": "Sucursal Managua Centro",
+      "carteraActual": 350000,
+      "clientesActivos": 650,
+      "empleados": 12,
+      "ubicacion": "Managua",
+      "categoria": "A"
+    },
+    {
+      "nombre": "Sucursal León",
+      "carteraActual": 220000,
+      "clientesActivos": 430,
+      "empleados": 8,
+      "ubicacion": "León",
+      "categoria": "B"
+    },
+    {
+      "nombre": "Sucursal Siuna",
+      "carteraActual": 120000,
+      "clientesActivos": 200,
+      "empleados": 5,
+      "ubicacion": "Siuna",
+      "categoria": "C"
+    }
+  ],
+  "proyeccionIngresos": {
+    "summary": {
+      "carteraActual": 1700000,
+      "carteraProyectada": 2250043,
+      "delta": 550043,
+      "tasaDescuento": 0.14,
+      "valorPresente": 218627.76,
+      "valorAnual": 72875.92
+    },
+    "categorias": [
+      {
+        "tipo": "A",
+        "sucursales": 8,
+        "clientesNuevos": 25,
+        "colocacionProyectada": 1000000,
+        "saldoCartera": 100000
+      },
+      {
+        "tipo": "B",
+        "sucursales": 20,
+        "clientesNuevos": 18,
+        "colocacionProyectada": 750000,
+        "saldoCartera": 75000
+      },
+      {
+        "tipo": "C",
+        "sucursales": 15,
+        "clientesNuevos": 10,
+        "colocacionProyectada": 500000,
+        "saldoCartera": 50000
+      }
+    ]
+  }
+}

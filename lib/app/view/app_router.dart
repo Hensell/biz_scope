@@ -1,5 +1,6 @@
 import 'package:biz_scope/features/home/home_feature.dart';
 import 'package:biz_scope/features/home/presentation/views/under_construction_view.dart';
+import 'package:biz_scope/features/reports/presentation/views/income_projection_report_page.dart';
 import 'package:biz_scope/features/reports/presentation/views/placement_page.dart';
 import 'package:biz_scope/features/settings/presentation/views/settings_view.dart';
 import 'package:go_router/go_router.dart';
@@ -17,8 +18,8 @@ final GoRouter appRouter = GoRouter(
           builder: (context, state) => const PlacementPage(),
         ),
         GoRoute(
-          path: '/mora',
-          builder: (context, state) => const UnderConstructionView(),
+          path: '/proyecciones',
+          builder: (context, state) => const IncomeProjectionReportPage(),
         ),
         GoRoute(
           path: '/cartera-riesgo',

@@ -1,6 +1,6 @@
 [
   { "label": "placements", "icon": "show_chart", "route": "/colocaciones" },
-  { "label": "delinquency", "icon": "trending_down", "route": "/mora" },
+  { "label": "delinquency", "icon": "trending_down", "route": "/proyecciones" },
   { "label": "atRiskPortfolio", "icon": "warning", "route": "/cartera-riesgo" },
   { "label": "inactiveClients", "icon": "person_off", "route": "/clientes-inactivos" },
   { "label": "portfolioTurnover", "icon": "sync", "route": "/rotacion-cartera" },

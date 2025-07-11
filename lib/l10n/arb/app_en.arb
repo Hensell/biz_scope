@@ -19,7 +19,7 @@
   },
   "placements": "Placements",
   "@placements": { "description": "Menu label for placements/loans or credits placed." },
-  "delinquency": "Delinquency",
+  "delinquency": "Projections",
   "@delinquency": { "description": "Menu label for overdue accounts or loans." },
   "atRiskPortfolio": "At-Risk Portfolio",
   "@atRiskPortfolio": { "description": "Menu label for portfolio at risk." },
@@ -178,7 +178,60 @@
 "selectBranch": "Select branch",
 "@selectBranch": {
   "description": "Label for selecting a branch from a dropdown or list"
+},
+"incomeProjectionReportTitle": "Income Projection Report",
+"@incomeProjectionReportTitle": {
+  "description": "Title for the income projection report page"
+},
+"incomeProjectionReportError": "Error: {message}",
+"@incomeProjectionReportError": {
+  "description": "Generic error message for the income projection report"
+},
+"incomeProjectionSummary": "Summary",
+"@incomeProjectionSummary": {
+  "description": "Section title for the summary card in the income projection report"
+},
+"incomeProjectionBranchesByCategory": "Branches by Category",
+"@incomeProjectionBranchesByCategory": {
+  "description": "Section title for the bar chart showing branches by category"
+},
+"incomeProjectionBranchesList": "Branches List",
+"@incomeProjectionBranchesList": {
+  "description": "Section title for the list of branches in the income projection report"
+},
+"incomeProjectionBranchCategory": "Category: {category}",
+"@incomeProjectionBranchCategory": {
+  "description": "Label for branch category in the branch list, with variable"
+},
+"incomeProjectionBranchPortfolio": "Portfolio: {portfolio}",
+"@incomeProjectionBranchPortfolio": {
+  "description": "Label for branch portfolio amount in the branch list, with variable"
+},
+"incomeProjectionCurrentPortfolio": "Current Portfolio",
+"@incomeProjectionCurrentPortfolio": {
+  "description": "Label for current portfolio in the summary card"
+},
+"incomeProjectionProjectedPortfolio": "Projected Portfolio",
+"@incomeProjectionProjectedPortfolio": {
+  "description": "Label for projected portfolio in the summary card"
+},
+"incomeProjectionDelta": "Delta",
+"@incomeProjectionDelta": {
+  "description": "Label for delta value in the summary card"
+},
+"incomeProjectionDiscountRate": "Discount Rate",
+"@incomeProjectionDiscountRate": {
+  "description": "Label for discount rate in the summary card"
+},
+"incomeProjectionPresentValue": "Present Value",
+"@incomeProjectionPresentValue": {
+  "description": "Label for present value in the summary card"
+},
+"incomeProjectionAnnualValue": "Annual Value",
+"@incomeProjectionAnnualValue": {
+  "description": "Label for annual value in the summary card"
 }
+
 
 
 
